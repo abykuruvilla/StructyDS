@@ -42,9 +42,9 @@ public class GridPosition {
 
     @Override
     public String toString() {
-        return "GridPosition{" +
-                "rowId=" + rowId +
-                ", colId=" + colId +
-                '}';
+        return "{" +
+                rowId +
+                ", " + colId +
+                "}";
     }
 }
