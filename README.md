@@ -101,10 +101,12 @@ _**LL TBD**_
 3. Decompress Braces
 4. Nesting Score
 
-**7: Exhaustive Recursion - _TBD_**
+**7: Exhaustive Recursion**
 
 1. Subsets
 2. Permutations
+------------------
+**_ER TBD_**
 3. Break Time
 4. Create Combinations
 5. Parenthetical Possibilities
