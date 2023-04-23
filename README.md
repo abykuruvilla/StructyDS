@@ -70,6 +70,7 @@ _**LL TBD**_
 13. Best Bridge
 ---------------
 **_Graph TBD_**
+
 14. Has Cycle
 15. Prereqs Possible
 16. Knight Attack
@@ -86,6 +87,7 @@ _**LL TBD**_
 8. Min Sum of Squares
 ------------------
 **_DP TBD_**
+
 9. Counting Change
 10. Array Stepper
 11. Max Palindromic Subsequence
@@ -107,17 +109,21 @@ _**LL TBD**_
 2. Permutations
 ------------------
 **_ER TBD_**
+
 3. Break Time
 4. Create Combinations
 5. Parenthetical Possibilities
 6. Substitute Synonyms
 
-**8: Mixed Recall - _TBD_**
+**8: Mixed Recall**
 
 1. Linked Palindrome
 2. Middle Value
 3. Linked List Cycle
 4. Lowest Common Ancestor
+------------------
+**_MR TBD_**
+
 5. Flip Tree
 6. Lefty Nodes
 7. Can Color
