@@ -6,6 +6,8 @@ import com.kaby.ds.linkedlist.Node;
 import java.util.ArrayList;
 import java.util.List;
 
+
+// LINKED LIST
 public class MiddleValue {
 
     /**
@@ -21,11 +23,11 @@ public class MiddleValue {
 
         // == test_00: ==
 
-        Node<String> a = new Node("a");
-        Node<String> b = new Node("b");
-        Node<String> c = new Node("c");
-        Node<String> d = new Node("d");
-        Node<String> e = new Node("e");
+        Node<String> a = new Node<>("a");
+        Node<String> b = new Node<>("b");
+        Node<String> c = new Node<>("c");
+        Node<String> d = new Node<>("d");
+        Node<String> e = new Node<>("e");
 
         a.next = b;
         b.next = c;

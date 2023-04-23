@@ -6,6 +6,8 @@ import com.kaby.ds.linkedlist.Node;
 import java.util.HashSet;
 import java.util.Set;
 
+
+// LINKED LIST
 public class LinkedListCycle {
 
 
@@ -18,10 +20,10 @@ public class LinkedListCycle {
     public static void main(String[] args) {
 
         // == test_00: ==
-        Node<String> a = new Node("a");
-        Node<String> b = new Node("b");
-        Node<String> c = new Node("c");
-        Node<String> d = new Node("d");
+        Node<String> a = new Node<>("a");
+        Node<String> b = new Node<>("b");
+        Node<String> c = new Node<>("c");
+        Node<String> d = new Node<>("d");
 
         a.next = b;
         b.next = c;
@@ -41,10 +43,10 @@ public class LinkedListCycle {
 
         // == test_02 ==
 
-        Node<String> a1 = new Node("a");
-        Node<String> b1 = new Node("b");
-        Node<String> c1 = new Node("c");
-        Node<String> d1 = new Node("d");
+        Node<String> a1 = new Node<>("a");
+        Node<String> b1 = new Node<>("b");
+        Node<String> c1 = new Node<>("c");
+        Node<String> d1 = new Node<>("d");
 
         a1.next = b1;
         b1.next = c1;

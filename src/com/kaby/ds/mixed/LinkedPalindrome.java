@@ -6,6 +6,7 @@ import com.kaby.ds.linkedlist.Node;
 import java.util.ArrayList;
 import java.util.Collections;
 
+// LINKED LIST
 public class LinkedPalindrome {
 
     /**
