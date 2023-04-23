@@ -103,6 +103,7 @@ public class LowestCommonAncestor {
 
     // Helper function to get a path from root node to target value
     // In above test if we call this with getPath(root, "g") we should get [g, e, b, a]
+    // Type of DFS
     private static List<String> getPath(Node<String> root, String targetVal) {
 
         // Base case - if root is null return a null
