@@ -122,11 +122,11 @@ _**LL TBD**_
 2. Middle Value
 3. Linked List Cycle
 4. Lowest Common Ancestor
+5. Flip Tree
+6. Lefty Nodes
 ------------------
 **_MR TBD_**
 
-5. Flip Tree
-6. Lefty Nodes
 7. Can Color
 8. Tolerant Teams
 9. Rare Routing
