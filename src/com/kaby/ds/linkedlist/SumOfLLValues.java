@@ -2,6 +2,12 @@ package com.kaby.ds.linkedlist;
 
 public class SumOfLLValues {
 
+    /**
+     * Write a function, sumList, that takes in the head of a linked list containing numbers as an argument.
+     * The function should return the total sum of all values in the linked list.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Node<Integer> a = new Node<>(2);
         Node<Integer> b = new Node<>(8);

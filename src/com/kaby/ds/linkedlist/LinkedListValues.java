@@ -5,6 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 
 public class LinkedListValues {
+
+    /**
+     * Write a function, linkedListValues, that takes in the head of a linked list as an argument.
+     * The function should return an array containing all values of the nodes in the linked list.
+     * @param args
+     */
     public static void main(String[] args) {
         Node<String> a = new Node<>("A");
         Node<String> b = new Node<>("B");

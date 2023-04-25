@@ -2,7 +2,12 @@ package com.kaby.ds.linkedlist;
 
 public class LLFind {
 
-    // Find if a target element is contained in the linked list
+    /**
+     * Write a function, linkedListFind, that takes in the head of a linked list and a target value.
+     * The function should return a boolean indicating whether or not the linked list contains the target.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Node<String> a = new Node<>("A");
         Node<String> b = new Node<>("B");
