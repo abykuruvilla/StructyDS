@@ -6,6 +6,12 @@ import java.util.Map;
 public class MostFrequentCharacter {
 
 
+    /**
+     * Write a function, mostFrequentChar, that takes in a string as an argument.
+     * The function should return the most frequent character of the string.
+     * If there are ties, return the character that appears earlier in the string.
+     * @param args
+     */
     public static void main(String[] args) {
         String input1 = "bookeeper"; // e
         String input2 = "potato";    // t

@@ -3,6 +3,17 @@ package com.kaby.ds.arraysnstrings;
 public class CompressString {
 
 
+    /**
+     * Write a function, compress, that takes in a string as an argument.
+     * The function should return a compressed version of the string where consecutive occurrences of
+     * the same characters are compressed into the number of occurrences followed by the character.
+     * Single character occurrences should not be changed.
+     *
+     * 'aaa' compresses to '3a'
+     * 'cc' compresses to '2c'
+     * 't' should remain as 't'
+     * @param args
+     */
     public static void main(String[] args) {
         String input1 = "2c3at";
         String expInput1 = "ccaaat";

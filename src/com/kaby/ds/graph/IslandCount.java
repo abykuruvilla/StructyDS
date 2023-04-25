@@ -7,13 +7,13 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Write a function, islandCount, that takes in a grid containing Ws and Ls.
- * W represents water and L represents land. The function should return the number of islands on the grid.
- * An island is a vertically or horizontally connected region of land.
- */
 public class IslandCount {
 
+    /**
+     * Write a function, islandCount, that takes in a grid containing Ws and Ls.
+     * W represents water and L represents land. The function should return the number of islands on the grid.
+     * An island is a vertically or horizontally connected region of land.
+     */
     public static void main(String[] args) {
 
 //        const grid = [
@@ -44,6 +44,7 @@ public class IslandCount {
 
     }
 
+    // O(n) space and time complexity
     private static Integer islandCount(String[][] grid) {
 
         // track the visited nodes
@@ -77,7 +78,7 @@ public class IslandCount {
         }
 
         // if we encounter WATER return false
-        if(grid[row][col] == "W") {
+        if("W".equals(grid[row][col])) {
             return false;
         }
 

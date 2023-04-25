@@ -6,8 +6,14 @@ import java.util.Map;
 
 public class PairSum {
 
-    // Given an array of numbers and a target sum as inputs, return a pair of indices whose
-    // sum is equal to the target
+    /**
+     * Write a function, pairSum, that takes in an array and a target sum as arguments.
+     * The function should return an array containing a pair of indices whose elements sum to the given target.
+     * The indices returned must be unique.
+     *
+     * Be sure to return the indices, not the elements themselves.
+     * @param args
+     */
     public static void main(String[] args) {
 
         int[] input1 = {3, 2, 5, 4, 1}; // [0,2]
@@ -20,7 +26,8 @@ public class PairSum {
 
     }
 
-    // Using a HashMap we improve time complexity to O(n) vs O(n^2) for naive approach, space complexity is also O(n) for Hashmap
+    // Using a HashMap we improve time complexity to O(n) vs O(n^2) for naive approach,
+    // space complexity is also O(n) for Hashmap
     private static int[] pairSum(int[] input, int target) {
         // In a Hashmap lets store the character and their indices
         Map<Integer, Integer> digitIndexMap = new HashMap<>();
