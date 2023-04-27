@@ -123,11 +123,12 @@ _**LL TBD**_
 3. Linked List Cycle
 4. Lowest Common Ancestor
 5. Flip Tree
-6. Lefty Nodes
+6. Lefty Nodes 
+7. Can Color
+
 ------------------
 **_MR TBD_**
 
-7. Can Color
 8. Tolerant Teams
 9. Rare Routing
 10. Max Increasing Subsequence
