@@ -101,7 +101,7 @@ public class CanColor {
             }
         }
 
-        // We were able to color the graph
+        // We were able to color the subgraph
         return Boolean.TRUE;
     }
 }
