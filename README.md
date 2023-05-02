@@ -114,7 +114,7 @@
 - [x] 6. Lefty Nodes 
 - [x] 7. Can Color 
 - [x] 8. Tolerant Teams
-- [ ] 9. Rare Routing
+- [x] 9. Rare Routing
 - [ ] 10. Max Increasing Subsequence
 - [ ] 11. Positioning Plants
 - [ ] 12. Breaking Boundaries
