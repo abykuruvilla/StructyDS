@@ -116,9 +116,9 @@ public class CountPaths {
 
         // There are only two ways to move
         // DOWN: get the count moving downwards
-        int downCount = countPathsHelper(grid, row + 1, col);
+        int downCount = countPathsOptimizedHelper(grid, row + 1, col, memo);
         // RIGHT: get the count moving right
-        int rightCount = countPathsHelper(grid, row, col + 1);
+        int rightCount = countPathsOptimizedHelper(grid, row, col + 1, memo);
 
         // We need to bubble up the value hence add
         // Store the computed position in the Map
