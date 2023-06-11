@@ -5,6 +5,7 @@ import com.kaby.ds.helper.ResultPair;
 import java.util.Arrays;
 import java.util.HashMap;
 
+// DYNAMIC PROGRAMMING
 public class MaxIncreasingSubsequence {
 
     /**
