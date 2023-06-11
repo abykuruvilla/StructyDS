@@ -116,7 +116,7 @@
 - [x] 8. Tolerant Teams
 - [x] 9. Rare Routing
 - [x] 10. Max Increasing Subsequence
-- [ ] 11. Positioning Plants
+- [x] 11. Positioning Plants
 - [ ] 12. Breaking Boundaries
 - [ ] 13. Merge Sort
 - [ ] 14. Combine Intervals
