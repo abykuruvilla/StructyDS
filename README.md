@@ -118,7 +118,7 @@
 - [x] 10. Max Increasing Subsequence
 - [x] 11. Positioning Plants
 - [x] 12. Breaking Boundaries
-- [ ] 13. Merge Sort
+- [x] 13. Merge Sort
 - [ ] 14. Combine Intervals
 - [ ] 15. Binary Search
 - [ ] 16. Binary Search Tree Includes
