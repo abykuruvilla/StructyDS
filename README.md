@@ -119,7 +119,7 @@
 - [x] 11. Positioning Plants
 - [x] 12. Breaking Boundaries
 - [x] 13. Merge Sort
-- [ ] 14. Combine Intervals
+- [x] 14. Combine Intervals
 - [ ] 15. Binary Search
 - [ ] 16. Binary Search Tree Includes
 - [ ] 17. Is Binary Search Tree?
