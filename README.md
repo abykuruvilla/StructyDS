@@ -121,7 +121,7 @@
 - [x] 13. Merge Sort
 - [x] 14. Combine Intervals
 - [x] 15. Binary Search
-- [ ] 16. Binary Search Tree Includes
+- [x] 16. Binary Search Tree Includes
 - [ ] 17. Is Binary Search Tree?
 - [ ] 18. Post Order Traversal
 - [ ] 19. Build Tree in Post
