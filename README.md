@@ -122,7 +122,7 @@
 - [x] 14. Combine Intervals
 - [x] 15. Binary Search
 - [x] 16. Binary Search Tree Includes
-- [ ] 17. Is Binary Search Tree?
+- [x] 17. Is Binary Search Tree?
 - [ ] 18. Post Order Traversal
 - [ ] 19. Build Tree in Post
 - [ ] 20. Build Tree in Pre
