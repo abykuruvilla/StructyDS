@@ -77,12 +77,12 @@ public class IsBinarySearchTree {
         // == test_02: ==
         // == tree 3 ==
 
-        var a2 = new Node(12);
-        var b2 = new Node(5);
-        var c2 = new Node(19);
-        var d2 = new Node(3);
-        var e2 = new Node(9);
-        var f2 = new Node(19);
+        var a2 = new Node<>(12);
+        var b2 = new Node<>(5);
+        var c2 = new Node<>(19);
+        var d2 = new Node<>(3);
+        var e2 = new Node<>(9);
+        var f2 = new Node<>(19);
 
         a2.leftNode = b2;
         a2.rightNode = c2;
