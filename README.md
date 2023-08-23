@@ -125,7 +125,7 @@
 - [x] 17. Is Binary Search Tree?
 - [x] 18. Post Order Traversal
 - [x] 19. Build Tree in Post
-- [ ] 20. Build Tree in Pre
+- [x] 20. Build Tree in Pre
 - [ ] 21. Lexical Order
 - [ ] 22. Detect Dictionary
 - [ ] 23. Topological Order
