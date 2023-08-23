@@ -5,6 +5,7 @@ import com.kaby.ds.binarytree.Node;
 
 import java.util.Arrays;
 
+// BINARY TREE
 public class BuildTreeInPre {
 
     /**
