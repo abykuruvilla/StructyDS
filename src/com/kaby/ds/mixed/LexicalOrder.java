@@ -2,6 +2,7 @@ package com.kaby.ds.mixed;
 
 import com.kaby.ds.helper.ResultPair;
 
+// STRINGS
 public class LexicalOrder {
 
     /**
