@@ -126,7 +126,7 @@
 - [x] 18. Post Order Traversal
 - [x] 19. Build Tree in Post
 - [x] 20. Build Tree in Pre
-- [ ] 21. Lexical Order
+- [x] 21. Lexical Order
 - [ ] 22. Detect Dictionary
 - [ ] 23. Topological Order
 - [ ] 24. Safe Cracking
