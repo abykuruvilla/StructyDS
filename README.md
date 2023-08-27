@@ -127,7 +127,7 @@
 - [x] 19. Build Tree in Post
 - [x] 20. Build Tree in Pre
 - [x] 21. Lexical Order
-- [ ] 22. Detect Dictionary
+- [x] 22. Detect Dictionary
 - [ ] 23. Topological Order
 - [ ] 24. Safe Cracking
 - [ ] 25. String Search
