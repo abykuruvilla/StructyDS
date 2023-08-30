@@ -128,7 +128,7 @@
 - [x] 20. Build Tree in Pre
 - [x] 21. Lexical Order
 - [x] 22. Detect Dictionary
-- [ ] 23. Topological Order
+- [x] 23. Topological Order
 - [ ] 24. Safe Cracking
 - [ ] 25. String Search
 - [ ] 26. Token Replace
