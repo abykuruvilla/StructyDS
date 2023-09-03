@@ -129,7 +129,7 @@
 - [x] 21. Lexical Order
 - [x] 22. Detect Dictionary
 - [x] 23. Topological Order
-- [ ] 24. Safe Cracking
+- [x] 24. Safe Cracking
 - [ ] 25. String Search
 - [ ] 26. Token Replace
 - [ ] 27. Token Transform
