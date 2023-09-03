@@ -36,7 +36,7 @@ public class ShortestPath {
         };
 
         // Convert the edges list to an adjacency list
-        Map<String, LinkedList<String>> graph = GraphUtil.buildGraphFromEdgeList(edges);
+        Map<String, LinkedList<String>> graph = GraphUtil.buildUndirectedGraphFromEdgeList(edges);
 
         // NOTE: While both DFS and BFS should give an answer BFS might give shortest path better as it
         // explores its immediate neighbors first instead of going down until one specific direction
@@ -71,7 +71,7 @@ public class ShortestPath {
         };
 
         // Convert the edges list to an adjacency list
-        Map<String, LinkedList<String>> graph2 = GraphUtil.buildGraphFromEdgeList(edges2);
+        Map<String, LinkedList<String>> graph2 = GraphUtil.buildUndirectedGraphFromEdgeList(edges2);
 
         // NOTE: While both DFS and BFS should give an answer BFS might give shortest path better as it
         // explores its immediate neighbors first instead of going down until one specific direction
@@ -106,7 +106,7 @@ public class ShortestPath {
         };
 
         // Convert the edges list to an adjacency list
-        Map<String, LinkedList<String>> graph3 = GraphUtil.buildGraphFromEdgeList(edges3);
+        Map<String, LinkedList<String>> graph3 = GraphUtil.buildUndirectedGraphFromEdgeList(edges3);
 
         // NOTE: While both DFS and BFS should give an answer BFS might give shortest path better as it
         // explores its immediate neighbors first instead of going down until one specific direction
@@ -118,7 +118,7 @@ public class ShortestPath {
 
     private static int shortestPath(Map<String, LinkedList<String>> graph, String src, String dest) {
         // Base case where the src and destination nodes are the same
-        if (src == dest) {
+        if (src.equals(dest)) {
             return 0;
         }
 
@@ -132,7 +132,7 @@ public class ShortestPath {
         // We have visited the current node
         visited.add(src);
         // Let's add the source node to the queue, it's distance from itself is 0
-        queue.offer(new Pair<String, Integer>(src, 0));
+        queue.offer(new Pair<>(src, 0));
 
         // While the queue is not empty push each nodes neighbors onto the queue
         while (!queue.isEmpty()) {

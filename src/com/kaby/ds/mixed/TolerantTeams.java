@@ -7,8 +7,6 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 
-import static com.kaby.ds.graph.util.GraphUtil.buildGraphFromEdgeList;
-
 // GRAPH
 // This is a variation of the Can Color problem with Island Hopping
 // We are checking whether the Graph is Bipartite - can be divided into two teams
@@ -53,7 +51,7 @@ public class TolerantTeams {
     private static Boolean tolerantTeams(String[][] grid) {
 
         // Let us convert the edge list to an adjacency list
-        Map<String, LinkedList<String>> graph = GraphUtil.buildGraphFromEdgeList(grid);
+        Map<String, LinkedList<String>> graph = GraphUtil.buildUndirectedGraphFromEdgeList(grid);
 
         // Map to track which person has been colored
         Map<String, Boolean> coloring = new HashMap<>();

@@ -59,10 +59,10 @@ public class UndirectedPath {
 
         // Convert the list of edges to an adjacency list
         // Note that since this is an undirected graph edges go both ways
-        Map<String, LinkedList<String>> graph = GraphUtil.buildGraphFromEdgeList(edges);
+        Map<String, LinkedList<String>> graph = GraphUtil.buildUndirectedGraphFromEdgeList(edges);
 
         // Base case
-        if(src == dest) {
+        if(src.equals(dest)) {
             return true;
         }
 
@@ -83,7 +83,7 @@ public class UndirectedPath {
             // If an adjacent has not been visited, then mark it visited  and enqueue it
             for(String neighbor : graph.get(current)) {
                 // if the neighbor equals the dest node there is a path
-                if(neighbor == dest) {
+                if(neighbor.equals(dest)) {
                     return true;
                 }
 
@@ -105,18 +105,16 @@ public class UndirectedPath {
     private static boolean undirectedPathRecursive(String[][] edges, String src, String dest) {
         // Convert the list of edges to an adjacency list
         // Note that since this is an undirected graph edges go both ways
-        Map<String, LinkedList<String>> graph = GraphUtil.buildGraphFromEdgeList(edges);
+        Map<String, LinkedList<String>> graph = GraphUtil.buildUndirectedGraphFromEdgeList(edges);
 
-        boolean hasPathRecursive = hasPathRecursive(graph, src, dest, new HashSet<>());
-
-        return hasPathRecursive;
+        return hasPathRecursive(graph, src, dest, new HashSet<>());
     }
 
     private static boolean hasPathRecursive(Map<String, LinkedList<String>> graph, String src, String dest, Set<String> visited) {
 
         // The current node in process is the src node.
         // hence if we
-        if(src == dest) {
+        if(src.equals(dest)) {
             return true;
         }
 

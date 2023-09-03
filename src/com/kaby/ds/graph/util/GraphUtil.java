@@ -4,12 +4,11 @@ import java.util.*;
 
 public class GraphUtil {
 
+    public static <T> Map<T, LinkedList<T>> buildUndirectedGraphFromEdgeList(T[][] edges) {
 
-    public static Map<String, LinkedList<String>> buildGraphFromEdgeList(String[][] edges) {
+        Map<T, LinkedList<T>> graph = new HashMap<>();
 
-        Map<String, LinkedList<String>> graph = new HashMap<>();
-
-        for(String[] edge : edges) {
+        for(T[] edge : edges) {
             // For each of the 2 nodes in an edge check to see if the key is present in the adjacency graph,
             // if not add as Key
             if(!(graph.containsKey(edge[0]))) {
@@ -26,9 +25,41 @@ public class GraphUtil {
             graph.get(edge[1]).offer(edge[0]);
         }
 
-        System.out.println("***********************");
-        System.out.println("Graph as adjacency list");
-        System.out.println("***********************");
+        System.out.println("**********************************");
+        System.out.println("Undirected Graph as adjacency list");
+        System.out.println("**********************************");
+        System.out.println(graph);
+
+        return graph;
+
+    }
+
+    public static <T> Map<T, List<T>> buildDirectedGraphFromEdgeList(List<List<T>> edgeList) {
+
+        Map<T, List<T>> graph = new HashMap<>();
+
+        for(List<T> edge : edgeList) {
+            // Each edge has 2 nodes
+            T e1 = edge.get(0);
+            T e2 = edge.get(1);
+
+            // For each of the 2 nodes in an edge check to see if the key is present in the adjacency graph,
+            // if not add as Key
+
+            if(!graph.containsKey(e1)) {
+                graph.put(e1, new ArrayList<>());
+            }
+            if(!graph.containsKey(e2)) {
+                graph.put(e2, new ArrayList<>());
+            }
+
+            // Since this is a directional graph node e1 -> e2
+            graph.get(e1).add(e2);
+        }
+
+        System.out.println("********************************");
+        System.out.println("Directed Graph as adjacency list");
+        System.out.println("********************************");
         System.out.println(graph);
 
         return graph;
