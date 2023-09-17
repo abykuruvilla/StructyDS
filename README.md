@@ -82,7 +82,7 @@
 - [x] 8. Min Sum of Squares
 - [x] 9. Counting Change
 - [x] 10. Array Stepper
-- [ ] 11. Max Palindromic Subsequence
+- [x] 11. Max Palindromic Subsequence
 - [ ] 12. Overlap Subsequence
 - [ ] 13. Can Concat
 - [ ] 14. Quickest Concat
