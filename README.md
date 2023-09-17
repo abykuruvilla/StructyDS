@@ -81,7 +81,7 @@
 - [x] 7. Max Non-Adjacent Sum
 - [x] 8. Min Sum of Squares
 - [x] 9. Counting Change
-- [ ] 10. Array Stepper
+- [x] 10. Array Stepper
 - [ ] 11. Max Palindromic Subsequence
 - [ ] 12. Overlap Subsequence
 - [ ] 13. Can Concat
