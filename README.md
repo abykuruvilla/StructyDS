@@ -83,7 +83,7 @@
 - [x] 9. Counting Change
 - [x] 10. Array Stepper
 - [x] 11. Max Palindromic Subsequence
-- [ ] 12. Overlap Subsequence
+- [x] 12. Overlap Subsequence
 - [ ] 13. Can Concat
 - [ ] 14. Quickest Concat
 - [ ] 15. Knightly Number
