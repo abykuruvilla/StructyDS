@@ -85,7 +85,7 @@
 - [x] 11. Max Palindromic Subsequence
 - [x] 12. Overlap Subsequence
 - [x] 13. Can Concat
-- [ ] 14. Quickest Concat
+- [x] 14. Quickest Concat
 - [ ] 15. Knightly Number
 
 **6: Stack**
