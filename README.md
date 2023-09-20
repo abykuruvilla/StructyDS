@@ -86,7 +86,7 @@
 - [x] 12. Overlap Subsequence
 - [x] 13. Can Concat
 - [x] 14. Quickest Concat
-- [ ] 15. Knightly Number
+- [x] 15. Knightly Number
 
 **6: Stack**
 
