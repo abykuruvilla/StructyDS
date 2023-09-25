@@ -131,7 +131,7 @@
 - [x] 23. Topological Order
 - [x] 24. Safe Cracking
 - [x] 25. String Search
-- [ ] 26. Token Replace
+- [x] 26. Token Replace
 - [ ] 27. Token Transform
 
 **9: Hashset**
