@@ -132,7 +132,7 @@
 - [x] 24. Safe Cracking
 - [x] 25. String Search
 - [x] 26. Token Replace
-- [ ] 27. Token Transform
+- [x] 27. Token Transform
 
 **9: Hashset**
 
