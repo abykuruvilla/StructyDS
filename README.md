@@ -99,8 +99,9 @@
 
 - [x] 1. Subsets
 - [x] 2. Permutations
-- [ ] 3. Break Time
-- [ ] 4. Create Combinations
+
+[//]: # (- []  3. Break Time)
+- [x] 4. Create Combinations
 - [ ] 5. Parenthetical Possibilities
 - [ ] 6. Substitute Synonyms
 
