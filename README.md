@@ -66,7 +66,7 @@
 - [x] 11. Longest Path
 - [x] 12. Semesters Required
 - [x] 13. Best Bridge
-- [ ] 14. Has Cycle
+- [x] 14. Has Cycle
 - [ ] 15. Prereqs Possible
 - [ ] 16. Knight Attack
 
