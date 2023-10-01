@@ -103,7 +103,7 @@
 [//]: # (- []  3. Break Time)
 - [x] 4. Create Combinations
 - [x] 5. Parenthetical Possibilities
-- [ ] 6. Substitute Synonyms
+- [x] 6. Substitute Synonyms
 
 **8: Mixed Recall**
 

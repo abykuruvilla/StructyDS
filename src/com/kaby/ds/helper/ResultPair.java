@@ -52,11 +52,11 @@ public class ResultPair<E, A> {
     }
 
     public void printResultPair() {
-        System.out.println("{ RESULT: " +
+        System.out.println("{\n RESULT: " +
                 description + " - " +
-                "Expected = " + expectedVal +
-                ", Actual = " + actualVal +
-                "}");
+                "\n Expected = " + expectedVal +
+                ",\n Actual   = " + actualVal +
+                "\n}");
         System.out.println(" ============================== \n");
     }
 }
