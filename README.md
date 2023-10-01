@@ -67,7 +67,7 @@
 - [x] 12. Semesters Required
 - [x] 13. Best Bridge
 - [x] 14. Has Cycle
-- [ ] 15. Prereqs Possible
+- [x] 15. Prereqs Possible
 - [ ] 16. Knight Attack
 
 **5: Dynamic Programming**
