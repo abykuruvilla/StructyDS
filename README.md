@@ -68,7 +68,7 @@
 - [x] 13. Best Bridge
 - [x] 14. Has Cycle
 - [x] 15. Prereqs Possible
-- [ ] 16. Knight Attack
+- [x] 16. Knight Attack
 
 **5: Dynamic Programming**
 
