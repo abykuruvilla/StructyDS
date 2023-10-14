@@ -142,4 +142,4 @@
 **10: Heap/Priority Queue**
 
 - [x] 1. K'th largest element in a stream
-- [ ] 2. Last Stone Weight
+- [x] 2. Last Stone Weight
