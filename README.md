@@ -143,3 +143,9 @@
 
 - [x] 1. K'th largest element in a stream
 - [x] 2. Last Stone Weight
+
+**11: Tries/Prefix Trees**
+
+- [x] 1. Trie/Prefix Tree
+
+
