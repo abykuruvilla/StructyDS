@@ -26,7 +26,7 @@
 - [x] 6. Reverse Linked List 
 - [x] 7. Zippered List 
 - [x] 8. Merge Lists
-- [ ] 9. Is univalue list
+- [x] 9. Is univalue list
 - [ ] 10. Longest streak
 - [ ] 11. Remove Node
 - [ ] 12. Insert Node
