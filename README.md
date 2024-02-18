@@ -148,4 +148,44 @@
 
 - [x] 1. Trie/Prefix Tree
 
+**12: Best of Grind 75**
+
+- [ ] 1. Add Binary
+- [ ] 2. String To Integer
+- [ ] 3. Container with the most water
+- [ ] 4. Product of array except self
+- [ ] 5. Sort Colors
+- [ ] 6. Three Sum
+- [ ] 7. Trapping Rain Water
+- [ ] 8. First Bad Version
+- [ ] 9. Search in a rotated sorted Array
+- [ ] 10. Basic Calculator
+- [ ] 11. Largest Rectangle in a Histogram
+- [ ] 12. Implement a Queue using Stacks
+- [ ] 13. Spiral Matrices
+- [ ] 14. Rotting Oranges
+- [ ] 15. Word Ladder
+- [ ] 16. Serialize and Deserialize a Binary Tree
+- [ ] 17. Binary Tree Right Side View
+- [ ] 18. Ransom Note
+- [ ] 19. K Closest Points to Origin
+- [ ] 20. Kth Smallest Element in a BST
+- [ ] 21. Find Median from a Data Stream
+- [ ] 22. Task Scheduler
+- [ ] 23. Word Search
+- [ ] 24. Flood Fill
+- [ ] 25. Letter Combinations of a Phone Number
+- [ ] 26. Climbing Stairs
+- [ ] 27. 01 Matrix
+- [ ] 28. Partition Equal Subset Sum
+- [ ] 29. Unique Paths
+- [ ] 30. Word Break
+- [ ] 31. Maximum Profit in Job Scheduling
+- [ ] 32. Clone Graph
+- [ ] 33. Time-Based Key-Value Store
+- [ ] 34. Min Stack
+- [ ] 35. Minimum Window Substring
+- [ ] 36. Best Time to Buy and Sell Stock
+- [ ] 37. Accounts Merge
+
 
