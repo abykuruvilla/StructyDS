@@ -61,7 +61,9 @@ public class BinarySearch {
         while(low <= high) {
 
             // Find the mid point index
-            int mid = (low + high) / 2;
+//            int mid = (low + high) / 2;
+            // The above is okay for small numbers, but to avoid a int overflow do below
+            int mid = low + (high - low) / 2;
 
             // If target value is less than value at mid index,
             // the number is to the left of the mid index
