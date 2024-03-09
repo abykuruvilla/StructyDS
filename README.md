@@ -187,5 +187,6 @@
 - [ ] 35. Minimum Window Substring
 - [ ] 36. Best Time to Buy and Sell Stock
 - [ ] 37. Accounts Merge
+- [x] 38. Maximum Subarray
 
 
