@@ -1,4 +1,4 @@
-package com.kaby.ds.g75;
+package com.kaby.ds.g75.w3;
 
 
 import com.kaby.ds.helper.ResultPair;
