@@ -148,45 +148,125 @@
 
 - [x] 1. Trie/Prefix Tree
 
-**12: Best of Grind 75**
+**12: Grind 75**
 
-- [ ] 1. Add Binary
-- [ ] 2. String To Integer
-- [ ] 3. Container with the most water
-- [ ] 4. Product of array except self
-- [ ] 5. Sort Colors
-- [ ] 6. Three Sum
-- [ ] 7. Trapping Rain Water
-- [ ] 8. First Bad Version
-- [ ] 9. Search in a rotated sorted Array
-- [ ] 10. Basic Calculator
-- [ ] 11. Largest Rectangle in a Histogram
-- [ ] 12. Implement a Queue using Stacks
-- [ ] 13. Spiral Matrices
-- [ ] 14. Rotting Oranges
-- [ ] 15. Word Ladder
-- [ ] 16. Serialize and Deserialize a Binary Tree
-- [ ] 17. Binary Tree Right Side View
-- [ ] 18. Ransom Note
-- [ ] 19. K Closest Points to Origin
-- [ ] 20. Kth Smallest Element in a BST
-- [ ] 21. Find Median from a Data Stream
-- [ ] 22. Task Scheduler
-- [ ] 23. Word Search
-- [ ] 24. Flood Fill
-- [ ] 25. Letter Combinations of a Phone Number
-- [ ] 26. Climbing Stairs
-- [ ] 27. 01 Matrix
-- [ ] 28. Partition Equal Subset Sum
-- [ ] 29. Unique Paths
-- [ ] 30. Word Break
-- [ ] 31. Maximum Profit in Job Scheduling
-- [ ] 32. Clone Graph
-- [ ] 33. Time-Based Key-Value Store
-- [ ] 34. Min Stack
-- [ ] 35. Minimum Window Substring
-- [ ] 36. Best Time to Buy and Sell Stock
-- [ ] 37. Accounts Merge
-- [x] 38. Maximum Subarray
+## Grind 75 - 9-Week Plan
+
+This plan includes **75 questions**, grouped into 9 weeks.
+
+---
+
+### Week 1: Getting Started with Basics
+1. [ ] Two Sum (Easy · Array)
+2. [ ] Valid Parentheses (Easy · Stack)
+3. [ ] Best Time to Buy and Sell Stock (Easy · Array)
+4. [ ] Valid Palindrome (Easy · String)
+5. [ ] Invert Binary Tree (Easy · Binary Tree)
+6. [ ] Valid Anagram (Easy · String)
+7. [ ] Linked List Cycle (Easy · Linked List)
+8. [ ] Maximum Depth of Binary Tree (Easy · Binary Tree)
+
+---
+
+### Week 2: Building Stronger Foundations
+9. [ ] Binary Search (Easy · Binary Search)
+10. [ ] Flood Fill (Easy · Graph)
+11. [ ] Lowest Common Ancestor of a Binary Search Tree (Easy · Binary Search Tree)
+12. [ ] Balanced Binary Tree (Easy · Binary Tree)
+13. [ ] First Bad Version (Easy · Binary Search)
+14. [ ] Ransom Note (Easy · Hash Table)
+15. [ ] Climbing Stairs (Easy · Dynamic Programming)
+16. [ ] Middle of the Linked List (Easy · Linked List)
+
+---
+
+### Week 3: Reinforcing Core Concepts
+17. [ ] Longest Palindrome (Easy · String)
+18. [ ] Reverse Linked List (Easy · Linked List)
+19. [ ] Majority Element (Easy · Array)
+20. [ ] Add Binary (Easy · String)
+21. [ ] Contains Duplicate (Easy · Array)
+22. [ ] Diameter of Binary Tree (Easy · Binary Tree)
+23. [ ] Linked List Cycle (Easy · Linked List)
+24. [x] Maximum Subarray (Medium · Dynamic Programming)
+
+---
+
+### Week 4: Transitioning to Medium Problems
+25. [ ] Product of Array Except Self (Medium · Array)
+26. [ ] 3Sum (Medium · Array)
+27. [ ] Binary Tree Level Order Traversal (Medium · Binary Tree)
+28. [ ] K Closest Points to Origin (Medium · Heap)
+29. [ ] Course Schedule (Medium · Graph)
+30. [ ] Clone Graph (Medium · Graph)
+31. [ ] Evaluate Reverse Polish Notation (Medium · Stack)
+32. [ ] Rotting Oranges (Medium · Graph)
+
+---
+
+### Week 5: Diving Deeper into Medium Problems
+33. [ ] Search in Rotated Sorted Array (Medium · Binary Search)
+34. [ ] Coin Change (Medium · Dynamic Programming)
+35. [ ] Unique Paths (Medium · Dynamic Programming)
+36. [ ] Word Search (Medium · Graph)
+37. [ ] Subsets (Medium · Recursion)
+38. [ ] Partition Equal Subset Sum (Medium · Dynamic Programming)
+39. [ ] Binary Tree Right Side View (Medium · Binary Tree)
+40. [ ] Longest Palindromic Substring (Medium · String)
+
+---
+
+### Week 6: Advanced Problem Solving
+41. [ ] Combination Sum (Medium · Array)
+42. [ ] Permutations (Medium · Recursion)
+43. [ ] Implement Trie (Prefix Tree) (Medium · Trie)
+44. [ ] Letter Combinations of a Phone Number (Medium · Recursion)
+45. [ ] Sort Colors (Medium · Array)
+46. [ ] Accounts Merge (Medium · Graph)
+47. [ ] Time Based Key-Value Store (Medium · Binary Search)
+48. [ ] Min Stack (Medium · Stack)
+
+---
+
+### Week 7: Advanced Topics
+49. [ ] Container With Most Water (Medium · Array)
+50. [ ] Kth Smallest Element in a BST (Medium · Binary Search Tree)
+51. [ ] Task Scheduler (Medium · Heap)
+52. [ ] Word Break (Medium · Trie)
+53. [ ] Find All Anagrams in a String (Medium · String)
+54. [ ] Spiral Matrix (Medium · Matrix)
+55. [ ] Merge Intervals (Medium · Array)
+56. [ ] Binary Tree Maximum Path Sum (Medium · Binary Tree)
+
+---
+
+### Week 8: Mastering Hard Problems
+57. [ ] Serialize and Deserialize Binary Tree (Hard · Binary Tree)
+58. [ ] Trapping Rain Water (Hard · Stack, Array)
+59. [ ] Merge k Sorted Lists (Hard · Heap · Linked List)
+60. [ ] Find Median from Data Stream (Hard · Heap)
+61. [ ] Word Ladder (Hard · Graph)
+62. [ ] Basic Calculator (Hard · Stack)
+63. [ ] Largest Rectangle in Histogram (Hard · Stack)
+64. [ ] Maximum Profit in Job Scheduling (Hard · Binary Search)
+65. [ ] Minimum Window Substring (Hard · String)
+
+---
+
+### Optional Week 9: Overflow or Bonus Practice
+66. [ ] Sliding Window Maximum (Hard · Heap, Sliding Window)
+67. [ ] Accounts Merge (Revisit Medium · Graph)
+68. [ ] Evaluate Reverse Polish Notation (Revisit Medium · Stack)
+69. [ ] Shortest Path in Binary Matrix (Medium · Graph)
+70. [ ] Alien Dictionary (Hard · Graph)
+71. [ ] Network Delay Time (Medium · Graph)
+72. [ ] Basic Calculator II (Medium · Stack)
+73. [ ] Decode Ways (Medium · Dynamic Programming)
+74. [ ] Longest Consecutive Sequence (Medium · Array)
+75. [ ] Find Peak Element (Medium · Binary Search)
+
+---
+
+
 
 
