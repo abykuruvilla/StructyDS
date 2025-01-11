@@ -63,6 +63,7 @@ public class ResultPair<E, A> {
     }
 
     public void assertMatch() {
+        printResultPair();
         if (!Objects.equals(expectedVal, actualVal)) {
             throw new AssertionError(
                     "Assertion failed for " + description +
@@ -70,6 +71,6 @@ public class ResultPair<E, A> {
                             ", but Actual = " + actualVal
             );
         }
-        System.out.println("Assertion passed for " + description);
+        System.out.println("******  Assertion passed  ****** \n");
     }
 }

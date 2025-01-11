@@ -152,7 +152,7 @@
 
 **Week 1**
 
-- [ ] 1. Two Sum - gb75 - (Easy - Array)
+- [x] 1. Two Sum - gb75 - (Easy - Array)
 - [ ] 2. Best Time to Buy and Sell Stock - gb75 - (Easy - Array)
 - [ ] 3. Binary Search - g75 - (Easy - Binary Search)
 - [ ] 4. Reverse a Linked List - gb75 - (Easy - Linked List)
