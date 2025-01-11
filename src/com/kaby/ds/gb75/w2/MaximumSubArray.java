@@ -1,4 +1,4 @@
-package com.kaby.ds.g75.w3;
+package com.kaby.ds.gb75.w2;
 
 
 import com.kaby.ds.helper.ResultPair;
@@ -27,18 +27,21 @@ public class MaximumSubArray {
         int result0 = maxSubArray(new int[] {-2,1,-3,4,-1,2,1,-5,4}); // -> 6
         ResultPair<Integer, Integer> resultPair0 = new ResultPair<>("Sum of max subarray for [-2,1,-3,4,-1,2,1,-5,4] is ", 6, result0);
         resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
         int result1 = maxSubArray(new int[] {1}); // -> 1
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("Sum of max subarray for [1] is ", 1, result1);
         resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
         int result2 = maxSubArrayNeet(new int[] {5,4,-1,7,8}); // -> 23
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("Sum of max subarray for [5,4,-1,7,8] is ", 23, result2);
         resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
     }
 
