@@ -1,5 +1,7 @@
 package com.kaby.ds.helper;
 
+import java.util.Objects;
+
 public class ResultPair<E, A> {
 
     String description;
@@ -58,5 +60,17 @@ public class ResultPair<E, A> {
                 ",\n Actual   = " + actualVal +
                 "\n}");
         System.out.println(" ============================== \n");
+    }
+
+    public void assertMatch() {
+        printResultPair();
+        if (!Objects.equals(expectedVal, actualVal)) {
+            throw new AssertionError(
+                    "Assertion failed for " + description +
+                            ": Expected = " + expectedVal +
+                            ", but Actual = " + actualVal
+            );
+        }
+        System.out.println("******  Assertion passed  ****** \n");
     }
 }
