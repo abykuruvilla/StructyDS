@@ -4,6 +4,7 @@
 
 - [x] 1. [Max Value](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/intro/ArrayMaxValue.java)
 - [x] 2. [Is Prime](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/intro/IsNumberPrime.java)
+- [x] 3. Longest Word
 
 **1: Arrays And Strings**
 
