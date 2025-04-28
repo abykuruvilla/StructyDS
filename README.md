@@ -3,8 +3,9 @@
 **0: Introduction**
 
 - [x] 1. [Max Value](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/intro/ArrayMaxValue.java)
-- [x] 2. [Is Prime](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/intro/IsNumberPrime.java)
-- [x] 3. Longest Word
+- [x] 2. Longest Word
+- [x] 3. [Is Prime](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/intro/IsNumberPrime.java)
+- [x] 4. Fizz Buzz
 
 **1: Arrays And Strings**
 
