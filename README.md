@@ -3,9 +3,22 @@
 **0: Introduction**
 
 - [x] 1. [Max Value](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/intro/ArrayMaxValue.java)
-- [x] 2. Longest Word
+- [x] 2. [Longest Word](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/intro/LongestWord.java)
 - [x] 3. [Is Prime](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/intro/IsNumberPrime.java)
-- [x] 4. Fizz Buzz
+- [x] 4. [Fizz Buzz](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/intro/FizzBuzz.java)
+- [x] 5. [Pairs](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/intro/Pairs.java)
+
+**1: Hashing**
+
+- [x] 1. [Anagrams](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/Anagrams.java)
+- [x] 2. [Most Frequent Character](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/MostFrequentCharacter.java)
+- [x] 3. [Pair Sum](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/PairSum.java)
+- [x] 4. [Pair Product](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/PairProduct.java)
+- [x] 5. [Intersection](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/ArrayIntersection.java)
+- [] 6. [Exclusive Items]()
+- [] 7. [All Unique]()
+- [] 8. [Intersection with Dupes]()
+
 
 **1: Arrays And Strings**
 
