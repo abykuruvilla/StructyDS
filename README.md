@@ -23,6 +23,20 @@
 
 - [x] 1. [Sum of Numbers Recursive](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/SumNumbersRecursive.java)
 
+**3: Linked Lists**
+
+- [x] 1. [Linked List Intro(print list values)](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/PrintLinkedList.java)
+- [x] 2. [Linked List Values](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/LinkedListValues.java)
+- [x] 3. [Sum of Linked List Values](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/SumOfLLValues.java)
+- [x] 4. [Linked List Find](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/LLFind.java)
+- [x] 5. [Get Linked List Node Value](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/LLNodeValue.java)
+- [x] 6. [Reverse Linked List](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/ReverseLinkedList.java)
+- [x] 7. [Zippered List](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/ZipperedLists.java)
+- [x] 8. [Merge Lists](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/MergeLists.java)
+- [x] 9. [Is univalue list](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/UnivalueList.java)
+- [x] 10. [Longest streak](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/LongestStreak.java)
+- [ ] 11. Remove Node
+- [ ] 12. Insert Node
 
 
 
