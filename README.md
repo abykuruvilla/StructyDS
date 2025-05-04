@@ -15,9 +15,15 @@
 - [x] 3. [Pair Sum](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/PairSum.java)
 - [x] 4. [Pair Product](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/PairProduct.java)
 - [x] 5. [Intersection](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/ArrayIntersection.java)
-- [] 6. [Exclusive Items]()
-- [] 7. [All Unique]()
-- [] 8. [Intersection with Dupes]()
+- [x] 6. [Exclusive Items](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/hashing/ExclusiveItems.java)
+- [x] 7. [All Unique](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/hashing/AllUnique.java)
+- [x] 8. [Intersection with Dupes](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/hashing/IntersectionWithDupes.java)
+
+**2: Beginner Recursion**
+
+
+
+
 
 
 **1: Arrays And Strings**
