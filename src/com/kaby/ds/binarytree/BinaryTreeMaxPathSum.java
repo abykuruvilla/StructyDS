@@ -25,6 +25,13 @@ public class BinaryTreeMaxPathSum {
     //             / \    \
     //            4   2   1
 
+    /**
+     * Write a method, maxPathSum, that takes in the root of a binary tree that contains number values.
+     * The method should return the maximum sum of any root to leaf path within the tree.
+     *
+     * You may assume that the input tree is non-empty.
+     * @param args
+     */
     public static void main(String[] args) {
         Node<Integer> a = new Node<>(5);
         Node<Integer> b = new Node<>(11);

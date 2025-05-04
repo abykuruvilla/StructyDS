@@ -38,6 +38,24 @@
 - [ ] 11. Remove Node
 - [ ] 12. Insert Node
 
+**4: Binary Tree 1**
+
+- [x] 1. [Depth First Search (Iterative)](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/DFSIterative.java)
+- [x] 2. [Depth First Search (Recursive)](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/DFSRecursive.java)
+- [x] 3. [Breadth First Search](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/BFS.java)
+- [x] 4. [Binary Tree Sum](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/BinaryTreeSum.java)
+- [x] 5. [Binary Tree Includes](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/BinaryTreeIncludes.java)
+- [x] 6. [Binary Tree Min Value](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/BinaryTreeMin.java)
+- [x] 7. [Max root to leaf path sum](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/BinaryTreeMaxPathSum.java)
+- [x] 8. [Tree Path Finder](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/TreePathFinder.java)
+- [x] 9. [Tree Value Count](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/TreeValueCount.java)
+- [x] 10. [How High](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/HowHigh.java)
+- [x] 11. [Bottom Right Value](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/BottomRightValue.java)
+- [x] 12. [All Tree Paths](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/AllTreePaths.java)
+- [x] 13. [Tree Levels](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/TreeLevels.java)
+- [x] 14. [Level Averages](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/LevelAverages.java)
+- [x] 15. [Leaf List](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/LeafList.java)
+
 
 
 
