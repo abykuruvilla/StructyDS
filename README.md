@@ -21,6 +21,8 @@
 
 **2: Beginner Recursion**
 
+- [x] 1. [Sum of Numbers Recursive](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/SumNumbersRecursive.java)
+
 
 
 
