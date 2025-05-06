@@ -22,6 +22,11 @@
 **2: Beginner Recursion**
 
 - [x] 1. [Sum of Numbers Recursive](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/SumNumbersRecursive.java)
+- [x] 2. [Factorial](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/Factorial.java)
+- [ ] 3. [Sum of lengths](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/SumOfLengths.java)
+- [ ] 4. [Reverse String Recursive](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/ReverseStringRecursive.java)
+- [ ] 5. [Palindrome Recursive](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/PalindromeRecursive.java)
+- [ ] 5. [Fibonacci Recursive](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/FibonacciRecursive.java)
 
 **3: Linked Lists**
 
@@ -56,7 +61,13 @@
 - [x] 14. [Level Averages](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/LevelAverages.java)
 - [x] 15. [Leaf List](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/binarytree/LeafList.java)
 
+**5: Two Pointer**
 
+- [ ] 1. Is Palindrome
+- [x] 2. Uncompress
+- [x] 3. Compress
+- [x] 4. Five Sort
+- [ ] 5. Is subsequence
 
 
 
