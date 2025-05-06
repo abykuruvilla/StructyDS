@@ -24,14 +24,14 @@ public class MaxIncreasingSubsequence {
         int[] numbers1 = new int[]{4, 18, 20, 10, 12, 15, 19};
         int result1 = maxIncreasingSubseq(numbers1); // -> 5
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("Max increasing subsequence for " + Arrays.toString(numbers1) + " is", 5, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         //== test_01: ==
 
         int[] numbers2 = new int[]{12, 9, 2, 5, 4, 32, 90, 20};
         int result2 = maxIncreasingSubseq(numbers2); // -> 4
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("Max increasing subsequence for " + Arrays.toString(numbers2) + " is", 4, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         //== test_06: ==
 
@@ -41,7 +41,7 @@ public class MaxIncreasingSubsequence {
         };
         int result6 = maxIncreasingSubseqOptimized(numbers6); // -> 27
         ResultPair<Integer, Integer> resultPair6 = new ResultPair<>("Max increasing subsequence for " + Arrays.toString(numbers6) + " is", 27, result6);
-        resultPair6.printResultPair();
+        resultPair6.assertMatch();
 
     }
 

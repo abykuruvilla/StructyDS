@@ -24,17 +24,17 @@ public class FizzBuzz {
         // == test0 ==
         List<Object> result0 = fizzBuzz(11); // -> [1,2,"fizz",4,"buzz","fizz",7,8,"fizz","buzz",11]
         ResultPair<List<Object>, List<Object>> resultPair0 = new ResultPair<>("FizzBuzz List for n = 11 is ", Arrays.asList(1,2,"fizz",4,"buzz","fizz",7,8,"fizz","buzz",11), result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test1 ==
         List<Object> result1 = fizzBuzz(2); // -> [1,2]
         ResultPair<List<Object>, List<Object>> resultPair1 = new ResultPair<>("FizzBuzz List for n = 2 is ", Arrays.asList(1, 2), result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test2 ==
         List<Object> result2 = fizzBuzz(16);
         ResultPair<List<Object>, List<Object>> resultPair2 = new ResultPair<>("FizzBuzz List for n = 16 is ", Arrays.asList(1,2,"fizz",4,"buzz","fizz",7,8,"fizz","buzz",11, "fizz", 13, 14, "fizzbuzz", 16), result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
 
     }

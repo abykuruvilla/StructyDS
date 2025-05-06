@@ -31,7 +31,7 @@ public class CreateCombinations {
                 Arrays.asList("b", "c")
         );
         ResultPair<List<List<String>>, List<List<String>>> resultPair0 = new ResultPair<>("Combinations possible ", expected0, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
 
         // == test_01: ==
@@ -46,7 +46,7 @@ public class CreateCombinations {
                 Arrays.asList("s", "t")
         );
         ResultPair<List<List<String>>, List<List<String>>> resultPair1 = new ResultPair<>("Combinations possible ", expected1, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
@@ -58,7 +58,7 @@ public class CreateCombinations {
                 Arrays.asList("r", "s", "t")
         );
         ResultPair<List<List<String>>, List<List<String>>> resultPair2 = new ResultPair<>("Combinations possible ", expected2, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
@@ -67,7 +67,7 @@ public class CreateCombinations {
                 Arrays.asList("1", "28", "94")
         );
         ResultPair<List<List<String>>, List<List<String>>> resultPair3 = new ResultPair<>("Combinations possible ", expected3, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
     }
 

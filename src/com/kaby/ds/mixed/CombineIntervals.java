@@ -39,7 +39,7 @@ public class CombineIntervals {
         int[][] result1 = combineIntervals(intervals1); // -> [ [1, 7], [8, 15] ]
         int[][] expected1 = new int[][]{{1, 7}, {8, 15}};
         ResultPair<String, String> resultPair1 = new ResultPair<>("The combined interval for intervals " + Arrays.deepToString(intervals1) + " is ", Arrays.deepToString(expected1), Arrays.deepToString(result1));
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_01 ==
 
@@ -52,7 +52,7 @@ public class CombineIntervals {
         int[][] result2 = combineIntervals(intervals2); // -> [ [2, 9], [10, 12], [20, 24] ]
         int[][] expected2 = new int[][]{{2, 9}, {10, 12}, {20, 24}};
         ResultPair<String, String> resultPair2 = new ResultPair<>("The combined interval for intervals " + Arrays.deepToString(intervals2) + " is ", Arrays.deepToString(expected2), Arrays.deepToString(result2));
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_02 ==
 
@@ -64,7 +64,7 @@ public class CombineIntervals {
         int[][] result3 = combineIntervals(intervals3); // -> [ [1, 8] ]
         int[][] expected3 = new int[][]{{1, 8}};
         ResultPair<String, String> resultPair3 = new ResultPair<>("The combined interval for intervals " + Arrays.deepToString(intervals3) + " is ", Arrays.deepToString(expected3), Arrays.deepToString(result3));
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_03 ==
 
@@ -80,7 +80,7 @@ public class CombineIntervals {
         int[][] result4 = combineIntervals(intervals4); // -> [ [1, 8], [10, 16], [20, 22], [27, 31] ]
         int[][] expected4 = new int[][]{{1, 8}, {10, 16}, {20, 22}, {27, 31}};
         ResultPair<String, String> resultPair4 = new ResultPair<>("The combined interval for intervals " + Arrays.deepToString(intervals4) + " is ", Arrays.deepToString(expected4), Arrays.deepToString(result4));
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
     }
 

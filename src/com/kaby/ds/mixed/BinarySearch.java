@@ -22,31 +22,31 @@ public class BinarySearch {
 
         int result1 = binarySearch(new int[] {0, 1, 2, 3, 4, 5, 6, 7, 8}, 6); // -> 6
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("Index of target is ", 6, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_01 ==
 
         int result2 = binarySearch(new int[] {0, 6, 8, 12, 16, 19, 20, 24, 28}, 27); // -> -1
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("Index of target is ", -1, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_02 ==
 
         int result3 = binarySearch(new int[] {0, 6, 8, 12, 16, 19, 20, 28}, 8); // -> 2
         ResultPair<Integer, Integer> resultPair3 = new ResultPair<>("Index of target is ", 2, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_03 ==
 
         int result4 = binarySearch(new int[] {0, 6, 8, 12, 16, 19, 20, 24, 28}, 28); // -> 8
         ResultPair<Integer, Integer> resultPair4 = new ResultPair<>("Index of target is ", 8, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_08 ==
 
         int result5 = binarySearch(new int[] {}, 7); // -> -1
         ResultPair<Integer, Integer> resultPair5 = new ResultPair<>("Index of target is ", -1, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
         
     }
 

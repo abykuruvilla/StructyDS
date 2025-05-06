@@ -24,27 +24,27 @@ public class LongestWord {
         // == test0 ==
         String result0 = longestWord("what a wonderful world"); // -> "wonderful"
         ResultPair<String, String> resultPair0 = new ResultPair<>("The longest word is ", "wonderful", result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test1 ==
         String result1 = longestWord("have a nice day"); // -> "nice"
         ResultPair<String, String> resultPair1 = new ResultPair<>("The longest word is ", "nice", result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test2 ==
         String result2 = longestWord("the quick brown fox jumped over the lazy dog"); // -> "jumped"
         ResultPair<String, String> resultPair2 = new ResultPair<>("The longest word is ", "jumped", result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test3 ==
         String result3 = longestWord("who did eat the ham"); // -> "ham"
         ResultPair<String, String> resultPair3 = new ResultPair<>("The longest word is ", "ham", result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test4 ==
         String result4 = longestWord("potato"); // -> "potato"
         ResultPair<String, String> resultPair4 = new ResultPair<>("The longest word is ", "potato", result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
     }
 

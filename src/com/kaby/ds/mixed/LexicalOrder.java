@@ -29,49 +29,49 @@ public class LexicalOrder {
 
         boolean result0 = lexicalOrder("apple", "dock", alphabet1); // -> true
         ResultPair<Boolean, Boolean> resultPair0 = new ResultPair<>("Given strings are in lexical order? ", true, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
         boolean result1 = lexicalOrder("apple", "ample", alphabet1); // -> false
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Given strings are in lexical order? ", false, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
         boolean result2 = lexicalOrder("app", "application", alphabet1); // -> true
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Given strings are in lexical order? ", true, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
         boolean result3 = lexicalOrder("backs", "backdoor", alphabet1); // -> false
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("Given strings are in lexical order? ", false, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
         boolean result4 = lexicalOrder("zoo", "dinner", alphabet2); // -> true
         ResultPair<Boolean, Boolean> resultPair4 = new ResultPair<>("Given strings are in lexical order? ", true, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_05: ==
 
         boolean result5 = lexicalOrder("leaper", "leap", alphabet2); // -> false
         ResultPair<Boolean, Boolean> resultPair5 = new ResultPair<>("Given strings are in lexical order? ", false, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
         // == test_06: ==
 
         boolean result6 = lexicalOrder("backs", "backdoor", alphabet2); // -> true
         ResultPair<Boolean, Boolean> resultPair6 = new ResultPair<>("Given strings are in lexical order? ", true, result6);
-        resultPair6.printResultPair();
+        resultPair6.assertMatch();
 
         // == test_07: ==
 
         boolean result7 = lexicalOrder("semper", "semper", alphabet2); // -> true
         ResultPair<Boolean, Boolean> resultPair7 = new ResultPair<>("Given strings are in lexical order? ", true, result7);
-        resultPair7.printResultPair();
+        resultPair7.assertMatch();
 
 
     }

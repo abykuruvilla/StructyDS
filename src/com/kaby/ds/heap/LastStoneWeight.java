@@ -37,7 +37,7 @@ public class LastStoneWeight {
         int expected0 = 1;
         int actual0 = lastStoneWeight(stones0);
         ResultPair<Integer, Integer> resultPair0 = new ResultPair<>("The weight of the last stone is ", expected0, actual0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
 
         // == test01 ==
@@ -45,14 +45,14 @@ public class LastStoneWeight {
         int expected1 = 1;
         int actual1 = lastStoneWeight(stones1);
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("The weight of the last stone is ", expected1, actual1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test02 ==
         int[] stones2 = new int[] {2,7,4,1,8,1,1};
         int expected2 = 0;
         int actual2 = lastStoneWeight(stones2);
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("The weight of the last stone is ", expected2, actual2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
     }
 

@@ -41,7 +41,7 @@ public class SemestersRequired {
         };
         int semestersRequired1 = semestersRequired(numCourses, prereqs); // -> 3
         ResultPair<Integer, Integer> resultPair = new ResultPair<>("The number of semesters required is ", 3, semestersRequired1);
-        resultPair.printResultPair();
+        resultPair.assertMatch();
 
 
 //        ===========================
@@ -68,7 +68,7 @@ public class SemestersRequired {
         };
         int semestersRequired2 = semestersRequired(numCourses2, prereqs2); // -> 5
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("The number of semesters required is ", 5, semestersRequired2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
 
     }

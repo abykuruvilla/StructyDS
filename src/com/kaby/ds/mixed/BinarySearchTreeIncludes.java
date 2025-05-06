@@ -45,25 +45,25 @@ public class BinarySearchTreeIncludes {
 
         boolean result1 = binarySearchTreeIncludes(a, 9); // -> true
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("The binary search tree includes target ", true, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_01: ==
 
         boolean result2 = binarySearchTreeIncludes(a, 15); // -> false
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("The binary search tree includes target ", false, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_02: ==
 
         boolean result3 = binarySearchTreeIncludes(a, 1); // -> false
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("The binary search tree includes target ", false, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_03: ==
 
         boolean result4 = binarySearchTreeIncludes(a, 12); // -> true
         ResultPair<Boolean, Boolean> resultPair4 = new ResultPair<>("The binary search tree includes target ", true, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == tree 2 ==
 
@@ -96,31 +96,31 @@ public class BinarySearchTreeIncludes {
 
         boolean result5 = binarySearchTreeIncludes(q, 55); // -> false
         ResultPair<Boolean, Boolean> resultPair5 = new ResultPair<>("The binary search tree includes target ", false, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
         // == test_05: ==
 
         boolean result6 = binarySearchTreeIncludes(q, 47); // -> true
         ResultPair<Boolean, Boolean> resultPair6 = new ResultPair<>("The binary search tree includes target ", true, result6);
-        resultPair6.printResultPair();
+        resultPair6.assertMatch();
 
         // == test_06: ==
 
         boolean result7 = binarySearchTreeIncludes(q, 49); // -> false
         ResultPair<Boolean, Boolean> resultPair7 = new ResultPair<>("The binary search tree includes target ", false, result7);
-        resultPair7.printResultPair();
+        resultPair7.assertMatch();
 
         // == test_07: ==
 
         boolean result8 = binarySearchTreeIncludes(q, 70); // -> true
         ResultPair<Boolean, Boolean> resultPair8 = new ResultPair<>("The binary search tree includes target ", true, result8);
-        resultPair8.printResultPair();
+        resultPair8.assertMatch();
 
         // == test_08: ==
 
         boolean result9 = binarySearchTreeIncludes(q, 100); // -> false
         ResultPair<Boolean, Boolean> resultPair9 = new ResultPair<>("The binary search tree includes target ", false, result9);
-        resultPair9.printResultPair();
+        resultPair9.assertMatch();
 
     }
 

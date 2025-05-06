@@ -25,11 +25,11 @@ public class MinSumOfSquares {
 
         Integer minSumOfSquares = summingSquares(12); // -> 3
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("The min sum of squares to target 12 is ", 3, minSumOfSquares);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         Integer minSumOfSquares2 = summingSquaresOptimized(87, new HashMap<>()); // -> 4
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("The min sum of squares to target 87 is ", 4, minSumOfSquares2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
     }
 

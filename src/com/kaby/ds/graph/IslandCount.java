@@ -40,7 +40,7 @@ public class IslandCount {
 
         Integer islandCount1 = islandCount(grid);
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("The island count is ", 3, islandCount1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
     }
 

@@ -19,12 +19,12 @@ public class AllUnique {
         // == test0 ==
         boolean result0 = allUnique(List.of("q", "r", "s", "a"));
         ResultPair<Boolean, Boolean> resultPair0 = new ResultPair<>("All unique items in the list ", true, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test1 ==
         boolean result1 = allUnique(List.of("q", "r", "s", "r", "a"));
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("All unique items in the list ", false, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
     }
 

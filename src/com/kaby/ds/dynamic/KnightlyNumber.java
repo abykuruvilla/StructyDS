@@ -35,43 +35,43 @@ public class KnightlyNumber {
 
         int result0 = knightlyNumber(8, 2, 4, 4, 5, 5); // -> 2
         ResultPair<Integer, Integer> resultPair0 = new ResultPair<>("Number of ways the knight can reach the target in m moves is", 2, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
         int result1 = knightlyNumber(8, 2, 7, 1, 7, 1); // -> 3
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("Number of ways the knight can reach the target in m moves is", 3, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
         int result2 = knightlyNumber(8, 2, 5, 4, 5, 4); // -> 8
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("Number of ways the knight can reach the target in m moves is", 8, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
         int result3 = knightlyNumber(8, 3, 5, 2, 4, 4); // -> 21
         ResultPair<Integer, Integer> resultPair3 = new ResultPair<>("Number of ways the knight can reach the target in m moves is", 21, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
         int result4 = knightlyNumber(20, 6, 18, 7, 10, 15); // -> 60
         ResultPair<Integer, Integer> resultPair4 = new ResultPair<>("Number of ways the knight can reach the target in m moves is", 60, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_05: ==
 
         int result5 = knightlyNumber(20, 12, 8, 3, 9, 14); // -> 98410127
         ResultPair<Integer, Integer> resultPair5 = new ResultPair<>("Number of ways the knight can reach the target in m moves is", 98410127, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
         // == test_06: ==
 
         int result6 = knightlyNumber(8, 2, 0, 0, 1, 1); // -> 0
         ResultPair<Integer, Integer> resultPair6 = new ResultPair<>("Number of ways the knight can reach the target in m moves is", 0, result6);
-        resultPair6.printResultPair();
+        resultPair6.assertMatch();
 
 
     }

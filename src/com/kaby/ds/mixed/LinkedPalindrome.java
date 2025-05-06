@@ -36,7 +36,7 @@ public class LinkedPalindrome {
         // 3 -> 2 -> 7 -> 7 -> 2 -> 3
         boolean actualResult = linkedPalindrome(a); // true
         ResultPair<Boolean, Boolean> resultPair = new ResultPair<>("Is 3 -> 2 -> 7 -> 7 -> 2 -> 3 a linked palindrome ", Boolean.TRUE, actualResult);
-        resultPair.printResultPair();
+        resultPair.assertMatch();
 
         // =========================
 
@@ -54,7 +54,7 @@ public class LinkedPalindrome {
         boolean actualResult2 = linkedPalindrome(a1); // false
 
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Is 3 -> 2 -> 4 a linked palindrome ", Boolean.FALSE, actualResult2);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // =========================
 

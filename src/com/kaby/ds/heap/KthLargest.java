@@ -46,19 +46,19 @@ public class KthLargest {
         KthLargest kthLargest = new KthLargest(3, new int[] {4, 5, 8, 2});
         int result0 = kthLargest.add(3);   // return 4
         ResultPair<Integer, Integer> resultPair0 = new ResultPair<>("Kth largest value ", 4, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
         int result1 = kthLargest.add(5);   // return 5
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("Kth largest value ", 5, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
         int result2 = kthLargest.add(10);  // return 5
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("Kth largest value ", 5, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
         int result3 = kthLargest.add(9);   // return 8
         ResultPair<Integer, Integer> resultPair3 = new ResultPair<>("Kth largest value ", 8, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
         int result4 = kthLargest.add(4);   // return 8
         ResultPair<Integer, Integer> resultPair4 = new ResultPair<>("Kth largest value ", 8, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
     }
 

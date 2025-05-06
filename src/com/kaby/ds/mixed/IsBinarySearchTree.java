@@ -45,7 +45,7 @@ public class IsBinarySearchTree {
 
         boolean result1 = isBinarySearchTree(a); // -> true
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Is the given tree a binary search tree? ", true, true);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_01: ==
         // == tree 2 ==
@@ -72,7 +72,7 @@ public class IsBinarySearchTree {
 
         boolean result2 = isBinarySearchTree(a1); // -> false
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Is the given tree a binary search tree? ", false, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_02: ==
         // == tree 3 ==
@@ -98,7 +98,7 @@ public class IsBinarySearchTree {
 
         boolean result3 = isBinarySearchTree(a2); // -> true
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("Is the given tree a binary search tree? ", true, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_03: ==
         // == tree 4 ==
@@ -124,7 +124,7 @@ public class IsBinarySearchTree {
 
         boolean result4 = isBinarySearchTree(a3); // -> false
         ResultPair<Boolean, Boolean> resultPair4 = new ResultPair<>("Is the given tree a binary search tree? ", false, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_04: ==
         // == tree 5 ==
@@ -156,7 +156,7 @@ public class IsBinarySearchTree {
 
         boolean result5 = isBinarySearchTree(q); // -> true
         ResultPair<Boolean, Boolean> resultPair5 = new ResultPair<>("Is the given tree a binary search tree? ", true, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
     }
 

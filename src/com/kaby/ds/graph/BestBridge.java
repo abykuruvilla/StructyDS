@@ -42,7 +42,7 @@ public class BestBridge {
 
         int bestBridgeDistance1 = bestBridge(grid); // -> 1
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("The shortest/best bridge distance between the two islands is : ", 1, bestBridgeDistance1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
     }
 

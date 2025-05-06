@@ -46,7 +46,7 @@ public class PositioningPlants {
         }); // -> 7, by doing 4 + 1 + 2.
         int minCost4;
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("The minimum cost of planting flowers is ", 7, minCost1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_01: ==
 
@@ -55,7 +55,7 @@ public class PositioningPlants {
                 {6, 3, 2}
         }); // -> 8
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("The minimum cost of planting flowers is ", 8, minCost2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_02: ==
 
@@ -68,7 +68,7 @@ public class PositioningPlants {
                 {8, 6, 7},
         }); // -> 23
         ResultPair<Integer, Integer> resultPair3 = new ResultPair<>("The minimum cost of planting flowers is ", 23, minCost3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_05: ==
 
@@ -93,7 +93,7 @@ public class PositioningPlants {
                 {4, 6, 4, 11, 15},
         });
         ResultPair<Integer, Integer> resultPair4 = new ResultPair<>("The minimim cost of planting flowers is ", 75, minCost4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
     }
 

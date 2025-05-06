@@ -51,27 +51,27 @@ public class LowestCommonAncestor {
         // == test_00 ==
         String lowestCommonAncestor1 = lowestCommonAncestor(a, "d", "h"); // b
         ResultPair<String, String> resultPair1 = new ResultPair<>("Lowest common ancestor of d and h is", "b", lowestCommonAncestor1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_01 ==
         String lowestCommonAncestor2 = lowestCommonAncestor(a, "d", "g"); // b
         ResultPair<String, String> resultPair2 = new ResultPair<>("Lowest common ancestor of d and g is", "b", lowestCommonAncestor2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_02 ==
         String lowestCommonAncestor3 = lowestCommonAncestor(a, "g", "c"); // a
         ResultPair<String, String> resultPair3 = new ResultPair<>("Lowest common ancestor of g and c is", "a", lowestCommonAncestor3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_03 ==
         String lowestCommonAncestor4 = lowestCommonAncestor(a, "b", "g"); // b
         ResultPair<String, String> resultPair4 = new ResultPair<>("Lowest common ancestor of b and g is", "b", lowestCommonAncestor4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_04 ==
         String lowestCommonAncestor5 = lowestCommonAncestor(a, "f", "c"); // c
         ResultPair<String, String> resultPair5 = new ResultPair<>("Lowest common ancestor of f and c is", "c", lowestCommonAncestor5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
 
     }

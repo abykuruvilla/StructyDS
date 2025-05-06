@@ -37,12 +37,12 @@ public class MiddleValue {
         // a -> b -> c -> d -> e
         String actualValBF = middleValueBruteForce(a); // c
         ResultPair<String, String> resultPair = new ResultPair<>("BF: The middle value of a -> b -> c -> d -> e is ", "c", actualValBF);
-        resultPair.printResultPair();
+        resultPair.assertMatch();
 
         // a -> b -> c -> d -> e
         String actualValTwoPointer = middleValueTwoPointer(a); // c
         ResultPair<String, String> resultPair2 = new ResultPair<>("2 Pointer: The middle value of a -> b -> c -> d -> e is ", "c", actualValTwoPointer);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         //===================
 
@@ -64,12 +64,12 @@ public class MiddleValue {
         // a -> b -> c -> d -> e -> f
         String actualValBF1 = middleValueBruteForce(a1); // d
         ResultPair<String, String> resultPair3 = new ResultPair<>("BF: The middle value of a -> b -> c -> d -> e -> f is ", "d", actualValBF1);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // a -> b -> c -> d -> e -> f
         String actualValTwoPointer1 = middleValueTwoPointer(a1); // d
         ResultPair<String, String> resultPair4 = new ResultPair<>("2 Pointer: The middle value of a -> b -> c -> d -> e -> f is ", "d", actualValTwoPointer1);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
     }
 

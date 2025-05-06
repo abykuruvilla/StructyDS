@@ -32,7 +32,7 @@ public class LongestPath {
 
         Integer longestPath = longestPath(graph); // -> 2
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("The longest edge path length is ", 2, longestPath);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
 //        =========================================
 
@@ -62,7 +62,7 @@ public class LongestPath {
 
         Integer longestPath2 = longestPath(graph2); // -> 4
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("The longest edge path length is ", 4, longestPath2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
     }
 
     private static Integer longestPath(Map<String, LinkedList<String>> graph) {

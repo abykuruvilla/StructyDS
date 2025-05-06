@@ -21,7 +21,7 @@ public class ExclusiveItems {
         // == test0 ==
         List<Integer> result0 = exclusiveItems(List.of(4, 2, 1, 6), List.of(3, 6, 9, 2, 10));
         ResultPair<List<Integer>, List<Integer>> resultPair0 = new ResultPair<>("Exclusive items in the two lists ", List.of(4, 1, 3, 9, 10), result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
     }
 

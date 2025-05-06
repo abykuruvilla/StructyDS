@@ -22,7 +22,7 @@ public class MergeSort {
         int[] sorted1 = mergeSort(numbers1);
         int[] expected1 = new int[]{4, 5, 5, 6, 8, 10, 12, 40, 42, 100};
         ResultPair<String, String> resultPair1 = new ResultPair<>("Sorted using merge sort ", Arrays.toString(expected1), Arrays.toString(sorted1));
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_01 ==
 
@@ -30,7 +30,7 @@ public class MergeSort {
         int[] sorted2 = mergeSort(numbers2);
         int[] expected2 = new int[]{-30, -4, -1, 0, 7, 12, 20};
         ResultPair<String, String> resultPair2 = new ResultPair<>("Sorted using merge sort ", Arrays.toString(expected2), Arrays.toString(sorted2));
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03 ==
 
@@ -58,7 +58,7 @@ public class MergeSort {
                 94, 96, 97, 99
         };
         ResultPair<String, String> resultPair3 = new ResultPair<>("Sorted using merge sort ", Arrays.toString(expected3), Arrays.toString(sorted3));
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
     }
 

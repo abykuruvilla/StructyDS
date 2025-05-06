@@ -27,7 +27,7 @@ public class TokenReplace {
         );
         String result0 = tokenReplace("Walk the $ANIMAL$ in the $LOCATION$!", tokens0); // -> 'Walk the dog in the park!'
         ResultPair<String, String> resultPair0 = new ResultPair<>("String after token replace ", "Walk the dog in the park!", result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
@@ -38,7 +38,7 @@ public class TokenReplace {
         );
         String result1 = tokenReplace("the $ADJECTIVE$ fox $VERB$ $ADJECTIVE$ly $DIRECTION$ward", tokens1); // -> 'the quick fox hopped quickly Northward'
         ResultPair<String, String> resultPair1 = new ResultPair<>("String after token replace ", "the quick fox hopped quickly Northward", result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
@@ -47,7 +47,7 @@ public class TokenReplace {
         );
         String result2 = tokenReplace("his greeting is always $greeting$.", tokens2); // -> 'his greeting is always hey programmer.'
         ResultPair<String, String> resultPair2 = new ResultPair<>("String after token replace ", "his greeting is always hey programmer.", result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
@@ -58,7 +58,7 @@ public class TokenReplace {
         );
         String result3 = tokenReplace("$A$$B$$C$, oh my.", tokens3); // -> 'lionstigersbears, oh my.'
         ResultPair<String, String> resultPair3 = new ResultPair<>("String after token replace ", "lionstigersbears, oh my.", result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
@@ -69,7 +69,7 @@ public class TokenReplace {
         );
         String result4 = tokenReplace("$B$", tokens4); // -> 'tigers'
         ResultPair<String, String> resultPair4 = new ResultPair<>("String after token replace ", "tigers", result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_05: ==
 
@@ -80,7 +80,7 @@ public class TokenReplace {
         );
         String result5 = tokenReplace("$first$second$third$", tokens5); // -> 'alphasecondgamma'
         ResultPair<String, String> resultPair5 = new ResultPair<>("String after token replace ", "alphasecondgamma", result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
 
     }

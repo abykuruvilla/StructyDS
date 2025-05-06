@@ -42,7 +42,7 @@ public class ShortestPath {
         // explores its immediate neighbors first instead of going down until one specific direction
         int shortestPath = shortestPath(graph, "w", "z");
         ResultPair<Integer, Integer> resultPair = new ResultPair<>("The shortest path between w and z is", 2, shortestPath);
-        resultPair.printResultPair();
+        resultPair.assertMatch();
 
 //        =======================================
 
@@ -77,7 +77,7 @@ public class ShortestPath {
         // explores its immediate neighbors first instead of going down until one specific direction
         int shortestPath2 = shortestPath(graph2, "b", "g");
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("The shortest path between b and g is", -1, shortestPath2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
 //        ============================================
 
@@ -112,7 +112,7 @@ public class ShortestPath {
         // explores its immediate neighbors first instead of going down until one specific direction
         int shortestPath3 = shortestPath(graph3, "a", "e");
         ResultPair<Integer, Integer> resultPair3 = new ResultPair<>("The shortest path between a and e is", 3, shortestPath3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
     }
 

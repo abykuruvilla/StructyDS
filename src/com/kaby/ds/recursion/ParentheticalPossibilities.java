@@ -25,28 +25,28 @@ public class ParentheticalPossibilities {
         List<String> result0 = parentheticalPossibilities("x(mn)yz"); // -> 
         List<String> expected0 = Arrays.asList("xmyz", "xnyz");
         ResultPair<List<String>, List<String>> resultPair0 = new ResultPair<>("Parenthetical possibilities ", expected0, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
         List<String> result1 = parentheticalPossibilities("(qr)ab(stu)c"); // ->
         List<String> expected1 = Arrays.asList("qabsc", "qabtc", "qabuc", "rabsc", "rabtc", "rabuc");
         ResultPair<List<String>, List<String>> resultPair1 = new ResultPair<>("Parenthetical possibilities ", expected1, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
         List<String> result2 = parentheticalPossibilities("taco"); // ->
         List<String> expected2 = Arrays.asList("taco");
         ResultPair<List<String>, List<String>> resultPair2 = new ResultPair<>("Parenthetical possibilities ", expected2, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
         List<String> result3 = parentheticalPossibilities(""); // ->
         List<String> expected3 = Arrays.asList("");
         ResultPair<List<String>, List<String>> resultPair3 = new ResultPair<>("Parenthetical possibilities ", expected3, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
@@ -62,7 +62,7 @@ public class ParentheticalPossibilities {
                 "cdt"
         );
         ResultPair<List<String>, List<String>> resultPair4 = new ResultPair<>("Parenthetical possibilities ", expected4, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
 
     }

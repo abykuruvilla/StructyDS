@@ -25,7 +25,7 @@ public class MaxNonAdjacentSum {
         int[] nums = {2, 4, 5, 12, 7};
         int maxNonAdjacentSumActual1 = nonAdjacentSum(nums); // -> 16
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("The max non-adjacent path sum for nums1 is ", 16, maxNonAdjacentSumActual1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         int[] nums2 = {
                 72, 62, 10, 6, 20, 19, 42, 46, 24, 78,
@@ -38,7 +38,7 @@ public class MaxNonAdjacentSum {
         };
         int maxNonAdjacentSumActual2 = nonAdjacentSumOptimized(nums2, 0, new HashMap<>()); // -> 1465
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("The max non-adjacent path sum for nums2 is ", 1465, maxNonAdjacentSumActual2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
     }
 

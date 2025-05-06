@@ -25,7 +25,7 @@ public class DetectDictonary {
         var alphabet1 = "ghzstijbacdopnfklmeqrxyuvw";
         boolean result0 = detectDictionary(dictionary1, alphabet1); // -> true
         ResultPair<Boolean, Boolean> resultPair0 = new ResultPair<>("Is dictionary in lexical order? ", true, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
@@ -33,7 +33,7 @@ public class DetectDictonary {
         var alphabet2 = "ghzstijbacdopnfklmeqrxyuvw";
         boolean result1 = detectDictionary(dictionary2, alphabet2); // -> false
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Is dictionary in lexical order? ", false, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
@@ -41,7 +41,7 @@ public class DetectDictonary {
         var alphabet3 = "ghzstijbacdopnfklmeqrxyuvw";
         boolean result2 = detectDictionary(dictionary3, alphabet3); // -> false
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Is dictionary in lexical order? ", false, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
@@ -49,7 +49,7 @@ public class DetectDictonary {
         var alphabet4 = "mnoijpqrshkltabcdefguvwzxy";
         boolean result3 = detectDictionary(dictionary4, alphabet4); // -> true
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("Is dictionary in lexical order? ", true, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
@@ -57,7 +57,7 @@ public class DetectDictonary {
         var alphabet5 = "mnoijpqrshkltabcdefguvwzxy";
         boolean result4 = detectDictionary(dictionary5, alphabet5); // -> true
         ResultPair<Boolean, Boolean> resultPair4 = new ResultPair<>("Is dictionary in lexical order? ", true, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_05: ==
 
@@ -65,7 +65,7 @@ public class DetectDictonary {
         var alphabet6 = "mnoijpqrshkltabcdefguvwzxy";
         boolean result5 = detectDictionary(dictionary6, alphabet6); // -> false
         ResultPair<Boolean, Boolean> resultPair5 = new ResultPair<>("Is dictionary in lexical order? ", false, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
 
     }

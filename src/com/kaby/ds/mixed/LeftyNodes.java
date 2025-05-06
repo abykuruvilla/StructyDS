@@ -50,7 +50,7 @@ public class LeftyNodes {
 
         List<String> actualLeftyNodes1 = leftyNodes(a); // [ 'a', 'b', 'd', 'g' ]
         ResultPair<List<String>, List<String>> resultPair1 = new ResultPair<>("Left Nodes for tree", Arrays.asList("a", "b", "d", "g"), actualLeftyNodes1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // ===============
 
@@ -79,7 +79,7 @@ public class LeftyNodes {
 
         List<String> actualLeftyNodes2 = leftyNodes(u); // [ 'u', 't', 'r', 'q' ]
         ResultPair<List<String>, List<String>> resultPair2 = new ResultPair<>("Left Nodes for tree", Arrays.asList("u", "t", "r", "q"), actualLeftyNodes2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
     }
 

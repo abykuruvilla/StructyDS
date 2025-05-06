@@ -20,31 +20,31 @@ public class LongestOverlapSubsequence {
 
         int result0 = overlapSubsequence("dogs", "daogt"); // -> 3
         ResultPair<Integer, Integer> resultPair0 = new ResultPair<>("Longest overlapping subsequence is of length ", 3, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
         int result1 = overlapSubsequence("xcyats", "criaotsi"); // -> 4
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("Longest overlapping subsequence is of length ", 4, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
         int result2 = overlapSubsequence("xfeqortsver", "feeeuavoeqr"); // -> 5
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("Longest overlapping subsequence is of length ", 5, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
         int result3 = overlapSubsequence("kinfolklivemustache", "bespokekinfolksnackwave"); // -> 11
         ResultPair<Integer, Integer> resultPair3 = new ResultPair<>("Longest overlapping subsequence is of length ", 11, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
         int result4 = overlapSubsequence("mumblecorebeardleggingsauthenticunicorn", "succulentspughumblemeditationlocavore"); // -> 15
         ResultPair<Integer, Integer> resultPair4 = new ResultPair<>("Longest overlapping subsequence is of length ", 15, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
         
     }
 

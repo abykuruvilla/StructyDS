@@ -31,7 +31,7 @@ public class TolerantTeams {
 
         Boolean actualResult1 = tolerantTeams(grid1); // -> true
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Is this a tolerant team ", Boolean.TRUE, actualResult1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_01: ==
 
@@ -44,7 +44,7 @@ public class TolerantTeams {
 
         Boolean actualResult2 = tolerantTeams(grid2); // -> false
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Is this a tolerant team ", Boolean.FALSE, actualResult2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
     }
 

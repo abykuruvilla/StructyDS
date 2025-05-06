@@ -35,11 +35,11 @@ public class LinkedListCycle {
         // a -> b -> c -> d
         Boolean isCycle = linkedListCycleUsingSet(a);  // true
         ResultPair<Boolean, Boolean> resultPair = new ResultPair<>("Is a -> b -> c -> d -> b a cycle ", Boolean.TRUE, isCycle);
-        resultPair.printResultPair();
+        resultPair.assertMatch();
 
         Boolean isCycle2 = linkedListCycleUsingTwoPointer(a);  // true
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Is a -> b -> c -> d -> b a cycle ", Boolean.TRUE, isCycle2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_02 ==
 
@@ -55,11 +55,11 @@ public class LinkedListCycle {
         // a -> b -> c -> d
         Boolean isCycle3 = linkedListCycleUsingSet(a1);  // false
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("Is a -> b -> c -> d a cycle ", Boolean.FALSE, isCycle3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         Boolean isCycle4 = linkedListCycleUsingTwoPointer(a1);  // false
         ResultPair<Boolean, Boolean> resultPair4 = new ResultPair<>("Is a -> b -> c -> d a cycle ", Boolean.FALSE, isCycle4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
     }
 

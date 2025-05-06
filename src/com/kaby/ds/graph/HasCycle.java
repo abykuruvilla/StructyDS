@@ -28,7 +28,7 @@ public class HasCycle {
         )); // -> true
 
         ResultPair<Boolean, Boolean> resultPair0 = new ResultPair<>("Graph has cycle?", Boolean.TRUE, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
@@ -39,7 +39,7 @@ public class HasCycle {
                 "d", List.of()
         )); // -> false
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Graph has cycle?", Boolean.FALSE, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
@@ -51,7 +51,7 @@ public class HasCycle {
                 "f", List.of("e")
         )); // -> true
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Graph has cycle?", Boolean.TRUE, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
@@ -66,7 +66,7 @@ public class HasCycle {
                 "x", List.of("w")
         )); // -> false
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("Graph has cycle?", Boolean.FALSE, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
@@ -77,7 +77,7 @@ public class HasCycle {
                 "g", List.of()
         )); // -> true
         ResultPair<Boolean, Boolean> resultPair4 = new ResultPair<>("Graph has cycle?", Boolean.TRUE, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_05: ==
 
@@ -88,7 +88,7 @@ public class HasCycle {
                 "d", List.of("b")
         )); // -> true
         ResultPair<Boolean, Boolean> resultPair5 = new ResultPair<>("Graph has cycle?", Boolean.TRUE, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
     }
 

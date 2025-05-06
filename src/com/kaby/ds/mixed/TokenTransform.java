@@ -31,7 +31,7 @@ public class TokenTransform {
 
         String result0 = tokenTransform("Walk the $ANIMAL$ in the $LOCATION$!", tokens0); // -> 'Walk the dog in the dog park!'
         ResultPair<String, String> resultPair0 = new ResultPair<>("Token transform result ", "Walk the dog in the dog park!", result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
@@ -44,7 +44,7 @@ public class TokenTransform {
         );
         String result1 = tokenTransform("the $ADJECTIVE_1$ fox $ADVERBS$ $VERB$ward", tokens1); // -> 'the quick fox quickly and eagerly hopped Northward'
         ResultPair<String, String> resultPair1 = new ResultPair<>("Token transform result ", "the quick fox quickly and eagerly hopped Northward", result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
@@ -56,7 +56,7 @@ public class TokenTransform {
         );
         String result2 = tokenTransform("What a $A$ here!", tokens2); // -> 'What a pretty epicly clever problem we have here!'
         ResultPair<String, String> resultPair2 = new ResultPair<>("Token transform result ", "What a pretty epicly clever problem we have here!", result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
@@ -70,7 +70,7 @@ public class TokenTransform {
         );
         String result3 = tokenTransform("$1$ $1$ $1$ $1$ $1$ $1$ $4$ $4$", tokens3); // -> 'abcdef! abcdef! abcdef! abcdef! abcdef! abcdef! def! def!'
         ResultPair<String, String> resultPair3 = new ResultPair<>("Token transform result ", "abcdef! abcdef! abcdef! abcdef! abcdef! abcdef! def! def!", result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
@@ -87,7 +87,7 @@ public class TokenTransform {
         );
         String result4 = tokenTransform("z$0$z$0$z$0$z$0$z$0$z$0$z", tokens4); // -> 'zzzzzzz'
         ResultPair<String, String> resultPair4 = new ResultPair<>("Token transform result ", "zzzzzzz", result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
     }
 

@@ -44,7 +44,7 @@ public class CanColor {
 
         Boolean actualResult1 = canColor(graph1); // -> true
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Can the graph, " + graph1.toString() + " be colored ? ", Boolean.TRUE, actualResult1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_01: ==
 
@@ -56,7 +56,7 @@ public class CanColor {
 
         Boolean actualResult2 = canColor(graph2); // -> false
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Can the graph, " + graph2.toString() + " be colored ? ", Boolean.FALSE, actualResult2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
     }
 

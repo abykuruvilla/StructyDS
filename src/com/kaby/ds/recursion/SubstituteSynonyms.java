@@ -39,7 +39,7 @@ public class SubstituteSynonyms {
                 "pursue the lemon brick road"
         );
         ResultPair<List<String>, List<String>> resultPair0 = new ResultPair<>("Substituting Synonyms", expected0, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
 
         // == test_01: ==
@@ -62,7 +62,7 @@ public class SubstituteSynonyms {
                 "I reckon it's gonna be a prolonged prolonged time"
         );
         ResultPair<List<String>, List<String>> resultPair1 = new ResultPair<>("Substituting Synonyms", expected1, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
 
         // == test_02: ==
@@ -102,7 +102,7 @@ public class SubstituteSynonyms {
                 "fists sweaty knees sickly arms burdensome"
         );
         ResultPair<List<String>, List<String>> resultPair2 = new ResultPair<>("Substituting Synonyms", expected2, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
     }
 

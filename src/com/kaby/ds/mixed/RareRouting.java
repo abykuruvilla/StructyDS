@@ -54,7 +54,7 @@ public class RareRouting {
                 {0, 3}
         }); // -> true
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Is there a unique route for every pair of cities ", Boolean.TRUE, isRareRouting1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
 
         // == test_01: ==
@@ -66,7 +66,7 @@ public class RareRouting {
                 {3, 2}
         }); // -> false
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Is there a unique route for every pair of cities ", Boolean.FALSE, isRareRouting2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
 
         // == test_02: ==
@@ -79,7 +79,7 @@ public class RareRouting {
                 {0, 4},
         }); // -> true
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("Is there a unique route for every pair of cities ", Boolean.TRUE, isRareRouting3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
     }
 

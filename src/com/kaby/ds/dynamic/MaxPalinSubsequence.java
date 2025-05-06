@@ -21,49 +21,49 @@ public class MaxPalinSubsequence {
 
         int result0 = maxPalinSubsequence("luwxult"); // -> 5
         ResultPair<Integer, Integer> resultPair0 = new ResultPair<>("Max Palindromic Subsequence ", 5, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
         int result1 = maxPalinSubsequence("xyzaxxzy"); // -> 6
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("Max Palindromic Subsequence ", 6, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
         int result2 = maxPalinSubsequence("lol"); // -> 3
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("Max Palindromic Subsequence ", 3, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
         int result3 = maxPalinSubsequence("boabcdefop"); // -> 3
         ResultPair<Integer, Integer> resultPair3 = new ResultPair<>("Max Palindromic Subsequence ", 3, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
         int result4 = maxPalinSubsequence("z"); // -> 1
         ResultPair<Integer, Integer> resultPair4 = new ResultPair<>("Max Palindromic Subsequence ", 1, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_05: ==
 
         int result5 = maxPalinSubsequence("chartreusepugvicefree"); // -> 7
         ResultPair<Integer, Integer> resultPair5 = new ResultPair<>("Max Palindromic Subsequence ", 7, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
         // == test_06: ==
 
         int result6 = maxPalinSubsequence("qwueoiuahsdjnweuueueunasdnmnqweuzqwerty"); // -> 15
         ResultPair<Integer, Integer> resultPair6 = new ResultPair<>("Max Palindromic Subsequence ", 15, result6);
-        resultPair6.printResultPair();
+        resultPair6.assertMatch();
 
         // == test_07: ==
 
         int result7 = maxPalinSubsequence("enamelpinportlandtildecoldpressedironyflannelsemioticsedisonbulbfashionaxe"); // -> 31
         ResultPair<Integer, Integer> resultPair7 = new ResultPair<>("Max Palindromic Subsequence ", 31, result7);
-        resultPair7.printResultPair();
+        resultPair7.assertMatch();
 
     }
 

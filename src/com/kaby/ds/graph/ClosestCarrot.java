@@ -40,7 +40,7 @@ public class ClosestCarrot {
 
         Integer closestCarrotDist = closestCarrot(grid, 1, 2);
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("The closest carrot  is at a distance of ", 4, closestCarrotDist);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
     }
 

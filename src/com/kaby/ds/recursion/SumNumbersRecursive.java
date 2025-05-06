@@ -16,22 +16,22 @@ public class SumNumbersRecursive {
         // == test0 ==
         int result0 = sumNumbersRecursive(List.of(5, 2, 9, 10)); // -> 26
         ResultPair<Integer, Integer> resultPair0 = new ResultPair<>("Sum of numbers in list is ", 26, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test1 ==
         int result1 = sumNumbersRecursive(List.of(1, -1, 1, -1, 1, -1, 1)); // -> 1
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("Sum of numbers in list is ", 1, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test2 ==
         int result2 = sumNumbersRecursive(List.of()); // -> 0
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("Sum of numbers in list is ", 0, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test3 ==
         int result3 = sumNumbersRecursive(List.of(-10, -9, -8, -7, -6, -5, -4, -3, -2, -1)); // -> -55
         ResultPair<Integer, Integer> resultPair3 = new ResultPair<>("Sum of numbers in list is ", -55, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
     }
 

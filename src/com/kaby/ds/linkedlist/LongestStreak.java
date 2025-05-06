@@ -31,7 +31,7 @@ public class LongestStreak {
 
         var result0 = longestStreak(a); // 3
         ResultPair<Integer, Integer> resultPair0 = new ResultPair<>("The longest streak is of ", 3, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01:
 
@@ -51,7 +51,7 @@ public class LongestStreak {
 
         var result1 = longestStreak(a1); // 4
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("The longest streak is of ", 4, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02:
 
@@ -71,7 +71,7 @@ public class LongestStreak {
 
         var result2 = longestStreak(a2); // 3
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("The longest streak is of ", 3, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03:
 
@@ -83,7 +83,7 @@ public class LongestStreak {
 
         var result3 = longestStreak(a3); // 2
         ResultPair<Integer, Integer> resultPair3 = new ResultPair<>("The longest streak is of ", 2, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04:
 
@@ -92,13 +92,13 @@ public class LongestStreak {
 
         var result4 = longestStreak(a4); // 1
         ResultPair<Integer, Integer> resultPair4 = new ResultPair<>("The longest streak is of ", 1, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_05:
 
         var result5 = longestStreak(null); // 0
         ResultPair<Integer, Integer> resultPair5 = new ResultPair<>("The longest streak is of ", 0, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
 
     }

@@ -26,7 +26,7 @@ public class PrereqsPossible {
         );
         Boolean result0 = prereqsPossible(numCourses0, prereqs0); // -> true
         ResultPair<Boolean, Boolean> resultPair0 = new ResultPair<>("Prereqs Possible? ", Boolean.TRUE, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
@@ -41,7 +41,7 @@ public class PrereqsPossible {
         );
         Boolean result1 = prereqsPossible(numCourses1, prereqs1); // -> false
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Prereqs Possible? ", Boolean.FALSE, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
 
         // == test_02: ==
@@ -55,7 +55,7 @@ public class PrereqsPossible {
         );
         Boolean result2 = prereqsPossible(numCourses2, prereqs2); // -> true
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Prereqs Possible? ", Boolean.TRUE, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
 
         // == test_03: ==
@@ -71,7 +71,7 @@ public class PrereqsPossible {
         );
         Boolean result3 = prereqsPossible(numCourses3, prereqs3); // -> false
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("Prereqs Possible? ", Boolean.FALSE, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
 
         // == test_04: ==
@@ -87,7 +87,7 @@ public class PrereqsPossible {
         );
         Boolean result4 = prereqsPossible(numCourses4, prereqs4); // -> true
         ResultPair<Boolean, Boolean> resultPair4 = new ResultPair<>("Prereqs Possible? ", Boolean.TRUE, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
 
         // == test_05: ==
@@ -104,7 +104,7 @@ public class PrereqsPossible {
         );
         Boolean result5 = prereqsPossible(numCourses5, prereqs5); // -> false
         ResultPair<Boolean, Boolean> resultPair5 = new ResultPair<>("Prereqs Possible? ", Boolean.FALSE, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
 
         // == test_06: ==
@@ -113,7 +113,7 @@ public class PrereqsPossible {
         var prereqs6 = List.of(List.of(6, 36));
         Boolean result6 = prereqsPossible(numCourses6, prereqs6); // -> true
         ResultPair<Boolean, Boolean> resultPair6 = new ResultPair<>("Prereqs Possible? ", Boolean.TRUE, result6);
-        resultPair6.printResultPair();
+        resultPair6.assertMatch();
 
     }
 

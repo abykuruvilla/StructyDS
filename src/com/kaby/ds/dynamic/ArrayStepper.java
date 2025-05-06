@@ -31,43 +31,43 @@ public class ArrayStepper {
 
         Boolean result0 = arrayStepper(new int[] {2, 4, 2, 0, 0, 1}); // -> true
         ResultPair<Boolean, Boolean> resultPair0 = new ResultPair<>("Possible to array step to end index?", Boolean.TRUE, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
         Boolean result1 = arrayStepper(new int[] {2, 3, 2, 0, 0, 1}); // -> false
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Possible to array step to end index?", Boolean.FALSE, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
         Boolean result2 = arrayStepper(new int[] {3, 1, 3, 1, 0, 1}); // -> true
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Possible to array step to end index?", Boolean.TRUE, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
         Boolean result3 = arrayStepper(new int[] {4, 1, 5, 1, 1, 1, 0, 4}); // -> true
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("Possible to array step to end index?", Boolean.TRUE, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
         Boolean result4 = arrayStepper(new int[] {4, 1, 2, 1, 1, 1, 0, 4}); // -> false
         ResultPair<Boolean, Boolean> resultPair4 = new ResultPair<>("Possible to array step to end index?", Boolean.FALSE, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_05: ==
 
         Boolean result5 = arrayStepper(new int[] {1, 1, 1, 1, 1, 0}); // -> true
         ResultPair<Boolean, Boolean> resultPair5 = new ResultPair<>("Possible to array step to end index?", Boolean.TRUE, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
         // == test_06: ==
 
         Boolean result6 = arrayStepper(new int[] {1, 1, 1, 1, 0, 0}); // -> false
         ResultPair<Boolean, Boolean> resultPair6 = new ResultPair<>("Possible to array step to end index?", Boolean.FALSE, result6);
-        resultPair6.printResultPair();
+        resultPair6.assertMatch();
 
         // == test_07: ==
 
@@ -80,7 +80,7 @@ public class ArrayStepper {
                 5, 3, 2, 1, 0, 0, 0
 }); // -> false
         ResultPair<Boolean, Boolean> resultPair7 = new ResultPair<>("Possible to array step to end index?", Boolean.FALSE, result7);
-        resultPair7.printResultPair();
+        resultPair7.assertMatch();
 
 
     }

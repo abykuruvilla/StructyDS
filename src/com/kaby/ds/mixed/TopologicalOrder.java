@@ -30,7 +30,7 @@ public class TopologicalOrder {
                 "f", List.of("b", "e")
         )); // -> ["c", "a", "f", "b", "d", "e"]
         ResultPair<List<String>, List<String>> resultPair0 = new ResultPair<>("The topological order is ", List.of("c", "a", "f", "b", "d", "e"), result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
@@ -43,7 +43,7 @@ public class TopologicalOrder {
                 "m", List.of()
         )); // -> ["j", "i", "k", "h", "l", "m"]
         ResultPair<List<String>, List<String>> resultPair1 = new ResultPair<>("The topological order is ", List.of("j", "i", "k", "h", "l", "m"), result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
@@ -54,7 +54,7 @@ public class TopologicalOrder {
                 "t", List.of("s")
         )); // -> ["t", "s", "r", "q"]
         ResultPair<List<String>, List<String>> resultPair2 = new ResultPair<>("The topological order is ", List.of("t", "s", "r", "q"), result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
@@ -66,7 +66,7 @@ public class TopologicalOrder {
                 "z", List.of("w")
         )); // -> ["y", "x", "v", "z", "w"]
         ResultPair<List<String>, List<String>> resultPair3 = new ResultPair<>("The topological order is ", List.of("y", "x", "v", "z", "w"), result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
     }
 

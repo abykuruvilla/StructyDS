@@ -27,7 +27,7 @@ public class UnivalueList {
 
         Boolean result0 = isUnivalueList(a); // true
         ResultPair<Boolean, Boolean> resultPair0 = new ResultPair<>("Is univalue list? ", Boolean.TRUE, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
@@ -41,7 +41,7 @@ public class UnivalueList {
 
         Boolean result1 = isUnivalueList(a1); // false
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Is univalue list? ", Boolean.FALSE, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
@@ -59,7 +59,7 @@ public class UnivalueList {
 
         Boolean result2 = isUnivalueList(u); // true
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Is univalue list? ", Boolean.TRUE, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
@@ -77,7 +77,7 @@ public class UnivalueList {
 
         Boolean result3 = isUnivalueList(u1); // false
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("Is univalue list? ", Boolean.FALSE, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
@@ -86,7 +86,7 @@ public class UnivalueList {
 
         Boolean result4 = isUnivalueList(z); // true
         ResultPair<Boolean, Boolean> resultPair4 = new ResultPair<>("Is univalue list? ", Boolean.TRUE, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
         
     }
 

@@ -20,49 +20,49 @@ public class QuickestConcat {
 
         int result0 = quickestConcat("caution", new String[] {"ca", "ion", "caut", "ut"}); // -> 2
         ResultPair<Integer, Integer> resultPair0 = new ResultPair<>("Min number of words required for quick concat", 2, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
         int result1 = quickestConcat("caution", new String[] {"ion", "caut", "caution"}); // -> 1
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("Min number of words required for quick concat", 1, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
         int result2 = quickestConcat("respondorreact", new String[] {"re", "or", "spond", "act", "respond"}); // -> 4
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("Min number of words required for quick concat", 4, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
         int result3 = quickestConcat("simchacindy", new String[] {"sim", "simcha", "acindy", "ch"}); // -> 3
         ResultPair<Integer, Integer> resultPair3 = new ResultPair<>("Min number of words required for quick concat", 3, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
         int result4 = quickestConcat("simchacindy", new String[] {"sim", "simcha", "acindy"}); // -> -1
         ResultPair<Integer, Integer> resultPair4 = new ResultPair<>("Min number of words required for quick concat", -1, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_05: ==
 
         int result5 = quickestConcat("uuuuuu", new String[] {"u", "uu", "uuu", "uuuu"}); // -> 2
         ResultPair<Integer, Integer> resultPair5 = new ResultPair<>("Min number of words required for quick concat", 2, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
         // == test_06: ==
 
         int result6 = quickestConcat("rongbetty", new String[] {"wrong", "bet"}); // -> -1
         ResultPair<Integer, Integer> resultPair6 = new ResultPair<>("Min number of words required for quick concat", -1, result6);
-        resultPair6.printResultPair();
+        resultPair6.assertMatch();
 
         // == test_07: ==
 
         int result7 = quickestConcat("uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu", new String[] {"u", "uu", "uuu", "uuuu", "uuuuu"}); // -> 7
         ResultPair<Integer, Integer> resultPair7 = new ResultPair<>("Min number of words required for quick concat", 7, result7);
-        resultPair7.printResultPair();
+        resultPair7.assertMatch();
 
     }
 

@@ -41,7 +41,7 @@ public class MinimumIsland {
 
         Integer islandCount1 = minimumIsland(grid);
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("The minimum island count is ", 2, islandCount1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
     }
 

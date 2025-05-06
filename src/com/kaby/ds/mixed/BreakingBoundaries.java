@@ -41,31 +41,31 @@ public class BreakingBoundaries {
 
         int numWays1 = breakingBoundaries(3, 4, 2, 0, 0); // -> 4
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("Number of ways to move out of bounds is : ", 4, numWays1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_01: ==
 
         int numWays2 = breakingBoundaries(2, 2, 2, 1, 1); // -> 6
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("Number of ways to move out of bounds is : ", 6, numWays2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
         int numWays3 = breakingBoundaries(4, 4, 5, 2, 1); // -> 160
         ResultPair<Integer, Integer> resultPair3 = new ResultPair<>("Number of ways to move out of bounds is : ", 160, numWays3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_06: ==
 
         int numWays4 = breakingBoundariesOptimized(6, 6, 15, 3, 4); // -> 40787896
         ResultPair<Integer, Integer> resultPair4 = new ResultPair<>("Number of ways to move out of bounds is : ", 40787896, numWays4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_07: ==
 
         int numWays5 = breakingBoundariesOptimized(6, 8, 16, 2, 1); // -> 137495089
         ResultPair<Integer, Integer> resultPair5 = new ResultPair<>("Number of ways to move out of bounds is : ", 137495089, numWays5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
     }
 

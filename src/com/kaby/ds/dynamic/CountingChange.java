@@ -29,43 +29,43 @@ public class CountingChange {
 
         long numOfWays0 = countingChange(4, new int[] {1, 2, 3}); // -> 4
         ResultPair<Long, Long> resultPair0 = new ResultPair<>("Num of ways to count change is ",4L ,numOfWays0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
         long numOfWays1 = countingChange(8, new int[] {1, 2, 3}); // -> 10
         ResultPair<Long, Long> resultPair1 = new ResultPair<>("Num of ways to count change is ",10L ,numOfWays1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
         long numOfWays2 = countingChange(24, new int[] {5, 7, 3}); // -> 5
         ResultPair<Long, Long> resultPair2 = new ResultPair<>("Num of ways to count change is ",5L ,numOfWays2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
         long numOfWays3 = countingChange(13, new int[] {2, 6, 12, 10}); // -> 0
         ResultPair<Long, Long> resultPair3 = new ResultPair<>("Num of ways to count change is ",0L ,numOfWays3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04:
 
         long numOfWays4 = countingChange(512, new int[] {1, 5, 10, 25}); // -> 20119
         ResultPair<Long, Long> resultPair4 = new ResultPair<>("Num of ways to count change is ",20119L ,numOfWays4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_05: ==
 
         long numOfWays5 = countingChange(1000, new int[] {1, 5, 10, 25}); // -> 142511
         ResultPair<Long, Long> resultPair5 = new ResultPair<>("Num of ways to count change is ",142511L ,numOfWays5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
         // == test_06: ==
 
         long numOfWays6 = countingChange(240, new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9}); // -> 1525987916
         ResultPair<Long, Long> resultPair6 = new ResultPair<>("Num of ways to count change is ",1525987916L ,numOfWays6);
-        resultPair6.printResultPair();
+        resultPair6.assertMatch();
 
     }
 

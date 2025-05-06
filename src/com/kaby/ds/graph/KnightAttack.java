@@ -36,49 +36,49 @@ public class KnightAttack {
 
         Integer result0 = knightAttack(8, 1, 1, 2, 2); // -> 2
         ResultPair<Integer, Integer> resultPair0 = new ResultPair<>("Knight Attack - Min number of moves for knight to hit pawn ", 2, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
         Integer result1 = knightAttack(8, 1, 1, 2, 3); // -> 1
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("Knight Attack - Min number of moves for knight to hit pawn ", 1, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
         Integer result2 = knightAttack(8, 0, 3, 4, 2); // -> 3
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("Knight Attack - Min number of moves for knight to hit pawn ", 3, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
         Integer result3 = knightAttack(8, 0, 3, 5, 2); // -> 4
         ResultPair<Integer, Integer> resultPair3 = new ResultPair<>("Knight Attack - Min number of moves for knight to hit pawn ", 4, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
         Integer result4 = knightAttack(24, 4, 7, 19, 20); // -> 10
         ResultPair<Integer, Integer> resultPair4 = new ResultPair<>("Knight Attack - Min number of moves for knight to hit pawn ", 10, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_05: ==
 
         Integer result5 = knightAttack(100, 21, 10, 0, 0); // -> 11
         ResultPair<Integer, Integer> resultPair5 = new ResultPair<>("Knight Attack - Min number of moves for knight to hit pawn ", 11, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
         // == test_06: ==
 
         Integer result6 = knightAttack(3, 0, 0, 1, 2); // -> 1
         ResultPair<Integer, Integer> resultPair6 = new ResultPair<>("Knight Attack - Min number of moves for knight to hit pawn ", 1, result6);
-        resultPair6.printResultPair();
+        resultPair6.assertMatch();
 
         // == test_07: ==
 
         Integer result7 = knightAttack(3, 0, 0, 1, 1); // -> null
         ResultPair<Integer, Integer> resultPair7 = new ResultPair<>("Knight Attack - Min number of moves for knight to hit pawn ", null, result7);
-        resultPair7.printResultPair();
+        resultPair7.assertMatch();
 
     }
 

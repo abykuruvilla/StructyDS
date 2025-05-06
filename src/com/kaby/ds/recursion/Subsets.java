@@ -33,7 +33,7 @@ public class Subsets {
                 {"a", "b", "c"}
         };
         ResultPair<String, String> resultPair = new ResultPair<>("The possible subsets are ", Arrays.deepToString(expectedSubsets), actualSubsets.toString());
-        resultPair.printResultPair();
+        resultPair.assertMatch();
 
         //========
 
@@ -43,7 +43,7 @@ public class Subsets {
                 {}
         };
         ResultPair<String, String> resultPair2 = new ResultPair<>("The possible subsets are ", Arrays.deepToString(expectedSubsets2), actualSubsets2.toString());
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         //========
 

@@ -22,12 +22,12 @@ public class IntersectionWithDupes {
         // == test0 ==
         List<String> result0 = intersectionWithDupes(List.of("a", "b", "c", "b"), List.of("x", "y", "b", "b"));
         ResultPair<List<String>, List<String>> resultPair0 = new ResultPair<>("Intersection of the two lists with duplicate elements ", List.of("b", "b"), result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test1 ==
         List<String> result1 = intersectionWithDupes(List.of("a", "b", "c", "b"), List.of("x", "y", "b"));
         ResultPair<List<String>, List<String>> resultPair1 = new ResultPair<>("Intersection of the two lists with duplicate elements ", List.of("b"), result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
     }
 

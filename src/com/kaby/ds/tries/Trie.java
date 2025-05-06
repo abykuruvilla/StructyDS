@@ -33,35 +33,35 @@ public class Trie {
         trie.insert("apple");
         Boolean result1 = trie.search("apple");   // return True
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Search apple", Boolean.TRUE, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         Boolean result2 = trie.search("app");     // return False
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Search app", Boolean.FALSE, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         Boolean result3 = trie.startsWith("app"); // return True
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("Word starting with prefix app?", Boolean.TRUE, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         trie.insert("app");
         Boolean result4 = trie.search("app");     // return True
         ResultPair<Boolean, Boolean> resultPair4 = new ResultPair<>("Search app?", Boolean.TRUE, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         trie.insert("presentation");
         Boolean result5 = trie.search("presentation");     // return True
         ResultPair<Boolean, Boolean> resultPair5 = new ResultPair<>("Search presentation?", Boolean.TRUE, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
         trie.delete("presentation");
         Boolean result6 = trie.search("presentation");     // return True
         ResultPair<Boolean, Boolean> resultPair6 = new ResultPair<>("Search presentation after delete?", Boolean.FALSE, result6);
-        resultPair6.printResultPair();
+        resultPair6.assertMatch();
 
         trie.delete("apple");
         Boolean result7 = trie.search("apple");
         ResultPair<Boolean, Boolean> resultPair7 = new ResultPair<>("Search apple after delete?", Boolean.FALSE, result7);
-        resultPair7.printResultPair();
+        resultPair7.assertMatch();
     }
 
     private Boolean startsWith(String prefix) {

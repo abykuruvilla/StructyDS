@@ -32,7 +32,7 @@ public class MaxPathSum {
 
         Integer actual1 = maxPathSum(grid1); // -> 18
         ResultPair<Integer, Integer> resultPair1 = new ResultPair<>("The max path sum for grid1 is ", 18, actual1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         Integer[][] grid2 = new Integer[][]{
                 {1, 1, 3, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1},
@@ -53,7 +53,7 @@ public class MaxPathSum {
         };
         Integer actual2 = maxPathSum(grid2); // -> 56
         ResultPair<Integer, Integer> resultPair2 = new ResultPair<>("The max path sum for grid2 is ", 56, actual2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
 
     }

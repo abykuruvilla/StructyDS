@@ -20,7 +20,7 @@ public class Pairs {
 
         List<List<String>> result0 =  pairs(List.of("a", "b", "c"));
         ResultPair<List<List<String>>, List<List<String>>> resultPair0 = new ResultPair<>("Pairs of elements are ", List.of(List.of("a", "b"), List.of("a", "c"), List.of("b", "c")), result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
         // ->
         // [
         //    ["a", "b"],
@@ -30,7 +30,7 @@ public class Pairs {
 
         List<List<String>> result1 =  pairs(List.of("a", "b", "c", "d"));
         ResultPair<List<List<String>>, List<List<String>>> resultPair1 = new ResultPair<>("Pairs of elements are ", List.of(List.of("a", "b"), List.of("a", "c"), List.of("a", "d"), List.of("b", "c"), List.of("b", "d"), List.of("c", "d")), result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
         // ->
         // [
         //    ["a", "b"],

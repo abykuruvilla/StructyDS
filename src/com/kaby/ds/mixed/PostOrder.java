@@ -35,7 +35,7 @@ public class PostOrder {
 
         Character[] values1 = postOrder(x); // ['y', 'z', 'x']
         ResultPair<String, String> resultPair1 = new ResultPair<>("The given tree in post order is ", Arrays.toString(new char[] {'y', 'z', 'x'}), Arrays.toString(values1));
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
 
         // == test_02: ==
@@ -67,7 +67,7 @@ public class PostOrder {
 
         Character[] values2 = postOrder(a); // [ 'd', 'g', 'h', 'e', 'b', 'f', 'c', 'a' ]
         ResultPair<String, String> resultPair2 = new ResultPair<>("The given tree in post order is ", Arrays.toString(new char[] {'d', 'g', 'h', 'e', 'b', 'f', 'c', 'a'}), Arrays.toString(values2));
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
@@ -100,7 +100,7 @@ public class PostOrder {
 
         Character[] values3 = postOrder(l); // [ 'm', 'q', 'r', 'o', 's', 't', 'p', 'n', 'l' ]
         ResultPair<String, String> resultPair3 = new ResultPair<>("The given tree in post order is ", Arrays.toString(new char[] {'m', 'q', 'r', 'o', 's', 't', 'p', 'n', 'l'}), Arrays.toString(values3));
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
 
 
@@ -108,7 +108,7 @@ public class PostOrder {
 
         Character[] values4 = postOrder(null); // []
         ResultPair<String, String> resultPair4 = new ResultPair<>("The given tree in post order is ", Arrays.toString(new char[] {}), Arrays.toString(values4));
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
 
     }

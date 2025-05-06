@@ -30,7 +30,7 @@ public class Permutations {
                 {"c", "b", "a"}
         };
         ResultPair<String, String> resultPair = new ResultPair<>("The possible permutations are ", Arrays.deepToString(expectedPermutations), actualPermutations.toString());
-        resultPair.printResultPair();
+        resultPair.assertMatch();
     }
 
     private static List<List<String>> permutations(String[] input) {

@@ -36,7 +36,7 @@ public class SafeCracking {
                 List.of(7, 8)
         )); // -> '718'
         ResultPair<String, String> resultPair0 = new ResultPair<>("The safe sequence is ", "718", result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
@@ -50,7 +50,7 @@ public class SafeCracking {
                 List.of(9, 1)
         )); // -> '473591'
         ResultPair<String, String> resultPair1 = new ResultPair<>("The safe sequence is ", "473591", result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
@@ -65,7 +65,7 @@ public class SafeCracking {
                 List.of(6, 5)
         )); // -> '086235'
         ResultPair<String, String> resultPair2 = new ResultPair<>("The safe sequence is ", "086235", result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
@@ -75,7 +75,7 @@ public class SafeCracking {
                 List.of(1, 8)
         )); // -> '6018'
         ResultPair<String, String> resultPair3 = new ResultPair<>("The safe sequence is ", "6018", result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
@@ -89,7 +89,7 @@ public class SafeCracking {
                 List.of(8, 4)
         )); // -> '38429'
         ResultPair<String, String> resultPair4 = new ResultPair<>("The safe sequence is ", "38429", result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
 
     }

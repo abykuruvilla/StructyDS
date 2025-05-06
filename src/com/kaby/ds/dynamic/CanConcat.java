@@ -20,49 +20,49 @@ public class CanConcat {
 
         Boolean result0 = canConcat("oneisnone", new String[] {"one", "none", "is"}); // -> true
         ResultPair<Boolean, Boolean> resultPair0 = new ResultPair<>("Can concatenate? ", Boolean.TRUE, result0);
-        resultPair0.printResultPair();
+        resultPair0.assertMatch();
 
         // == test_01: ==
 
         Boolean result1 = canConcat("oneisnone", new String[] {"on", "e", "is"}); // -> false
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Can concatenate? ", Boolean.FALSE, result1);
-        resultPair1.printResultPair();
+        resultPair1.assertMatch();
 
         // == test_02: ==
 
         Boolean result2 = canConcat("oneisnone", new String[] {"on", "e", "is", "n"}); // -> true
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Can concatenate? ", Boolean.TRUE, result2);
-        resultPair2.printResultPair();
+        resultPair2.assertMatch();
 
         // == test_03: ==
 
         Boolean result3 = canConcat("foodisgood", new String[] {"is", "g", "ood", "f"}); // -> true
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("Can concatenate? ", Boolean.TRUE, result3);
-        resultPair3.printResultPair();
+        resultPair3.assertMatch();
 
         // == test_04: ==
 
         Boolean result4 = canConcat("santahat", new String[] {"santah", "hat"}); // -> false
         ResultPair<Boolean, Boolean> resultPair4 = new ResultPair<>("Can concatenate? ", Boolean.FALSE, result4);
-        resultPair4.printResultPair();
+        resultPair4.assertMatch();
 
         // == test_05: ==
 
         Boolean result5 = canConcat("santahat", new String[] {"santah", "san", "hat", "tahat"}); // -> true
         ResultPair<Boolean, Boolean> resultPair5 = new ResultPair<>("Can concatenate? ", Boolean.TRUE, result5);
-        resultPair5.printResultPair();
+        resultPair5.assertMatch();
 
         // == test_06: ==
 
         Boolean result6 = canConcat("rrrrrrrrrrrrrrrrrrrrrrrrrrx", new String[] {"r", "rr", "rrr", "rrrr", "rrrrr", "rrrrrr"}); // -> false
         ResultPair<Boolean, Boolean> resultPair6 = new ResultPair<>("Can concatenate? ", Boolean.FALSE, result6);
-        resultPair6.printResultPair();
+        resultPair6.assertMatch();
 
         // == test_07: ==
 
         Boolean result7 = canConcat("fooisgood", new String[] {"foo", "is", "g", "ood", "f"}); // -> true
         ResultPair<Boolean, Boolean> resultPair7 = new ResultPair<>("Can concatenate? ", Boolean.TRUE, result7);
-        resultPair7.printResultPair();
+        resultPair7.assertMatch();
 
     }
 
