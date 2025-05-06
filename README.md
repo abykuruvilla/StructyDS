@@ -24,7 +24,7 @@
 - [x] 1. [Sum of Numbers Recursive](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/SumNumbersRecursive.java)
 - [x] 2. [Factorial](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/Factorial.java)
 - [x] 3. [Sum of lengths](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/SumOfLengths.java)
-- [ ] 4. [Reverse String Recursive](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/ReverseStringRecursive.java)
+- [x] 4. [Reverse String Recursive](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/ReverseStringRecursive.java)
 - [ ] 5. [Palindrome Recursive](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/PalindromeRecursive.java)
 - [ ] 5. [Fibonacci Recursive](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/FibonacciRecursive.java)
 
