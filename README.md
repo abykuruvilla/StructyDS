@@ -69,74 +69,25 @@
 - [x] 4. [Five Sort](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/FiveSort.java)
 - [ ] 5. Is subsequence
 
+**6: Graph 1**
 
+- [x] 1. [Graph Depth First Search](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/GraphDFS.java)
+- [x] 2. [Graph Breadth First Search](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/GraphBFS.java)
+- [x] 3. [Has Path](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/HasPathFromSrcToDestination.java)
+- [x] 4. [Undirected Path](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/UndirectedPath.java)
+- [x] 5. [Connected Components Count](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/ConnectedComponentsCount.java)
+- [x] 6. [Largest Component](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/LargestComponent.java)
+- [x] 7. [Shortest Path](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/ShortestPath.java)
+- [x] 8. [Island Count](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/IslandCount.java)
+- [x] 9. [Minimum Island](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/MinimumIsland.java)
+- [x] 10. [Closest Carrot](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/ClosestCarrot.java)
+- [x] 11. [Longest Path](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/LongestPath.java)
+- [x] 12. [Semesters Required](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/SemestersRequired.java)
+- [x] 13. [Best Bridge](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/BestBridge.java)
+- [x] 14. [Has Cycle](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/HasCycle.java)
+- [x] 15. [Prereqs Possible](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/PrereqsPossible.java)
 
-**1: Arrays And Strings**
-
-- [x] 1. Uncompress
-- [x] 2. Compress
-- [x] 3. Anagrams
-- [x] 4. Most Frequent Character
-- [x] 5. Pair Sum
-- [x] 6. Pair Product
-- [x] 7. Intersection
-- [x] 8. Five Sort
-
-**2: Linked Lists**
-
-- [x] 1. Linked List Intro(print list values)
-- [x] 2. Linked List Values
-- [x] 3. Sum of Linked List Values 
-- [x] 4. Linked List Find 
-- [x] 5. Get Linked List Node Value 
-- [x] 6. Reverse Linked List 
-- [x] 7. Zippered List 
-- [x] 8. Merge Lists
-- [x] 9. Is univalue list
-- [x] 10. Longest streak
-- [ ] 11. Remove Node
-- [ ] 12. Insert Node
-- [ ] 13. Create a linked list
-- [ ] 14. Add lists
-
-**3: Binary Tree**
-
-- [x] 1. Depth First Search (Iterative)
-- [x] 2. Depth First Search (Recursive)
-- [x] 3. Breadth First Search
-- [x] 4. Binary Tree Sum
-- [x] 5. Binary Tree Includes
-- [x] 6. Binary Tree Min Value
-- [x] 7. Max root to leaf path sum
-- [x] 8. Tree Path Finder
-- [x] 9. Tree Value Count
-- [x] 10. How High
-- [x] 11. Bottom Right Value
-- [x] 12. All Tree Paths
-- [x] 13. Tree Levels
-- [x] 14. Level Averages
-- [x] 15. Leaf List
-
-**4: Graph**
-
-- [x] 1. Graph Depth First Search
-- [x] 2. Graph Breadth First Search
-- [x] 3. Has Path
-- [x] 4. Undirected Path
-- [x] 5. Connected Components Count
-- [x] 6. Largest Component
-- [x] 7. Shortest Path
-- [x] 8. Island Count
-- [x] 9. Minimum Island
-- [x] 10. Closest Carrot
-- [x] 11. Longest Path
-- [x] 12. Semesters Required
-- [x] 13. Best Bridge
-- [x] 14. Has Cycle
-- [x] 15. Prereqs Possible
-- [x] 16. Knight Attack
-
-**5: Dynamic Programming**
+**7: Dynamic Programming**
 
 - [x] 1. Fibonacci
 - [x] 2. Tribonacci
@@ -152,69 +103,119 @@
 - [x] 12. Overlap Subsequence
 - [x] 13. Can Concat
 - [x] 14. Quickest Concat
-- [x] 15. Knightly Number
 
-**6: Stack**
+**8: Stack**
 
-- [x] 1. Paired Parenthesis
-- [x] 2. Befitting Brackets
-- [x] 3. Decompress Braces
-- [x] 4. Nesting Score
+- [ ] 1. Reverse some chars
+- [x] 2. Paired Parenthesis
+- [x] 3. Befitting Brackets
+- [x] 4. Decompress Braces
+- [x] 5. Nesting Score
 
-**7: Exhaustive Recursion**
+**9: Arrays And Strings**
 
-- [x] 1. Subsets
-- [x] 2. Permutations
+- [ ] 1. Running Sum
+- [ ] 2. Has Subarray Sum
+- [x] 3. Merge Sort
+- [x] 4. Combine Intervals
+- [x] 5. Binary Search
+- [x] 6. Lexical Order
+- [x] 7. Detect Dictionary
 
-[//]: # (- []  3. Break Time)
-- [x] 4. Create Combinations
-- [x] 5. Parenthetical Possibilities
-- [x] 6. Substitute Synonyms
-
-**8: Mixed Recall**
+**10: Linked Lists 2**
 
 - [x] 1. Linked Palindrome
 - [x] 2. Middle Value
 - [x] 3. Linked List Cycle
-- [x] 4. Lowest Common Ancestor
-- [x] 5. Flip Tree
-- [x] 6. Lefty Nodes 
-- [x] 7. Can Color 
-- [x] 8. Tolerant Teams
-- [x] 9. Rare Routing
-- [x] 10. Max Increasing Subsequence
-- [x] 11. Positioning Plants
-- [x] 12. Breaking Boundaries
-- [x] 13. Merge Sort
-- [x] 14. Combine Intervals
-- [x] 15. Binary Search
-- [x] 16. Binary Search Tree Includes
-- [x] 17. Is Binary Search Tree?
-- [x] 18. Post Order Traversal
-- [x] 19. Build Tree in Post
-- [x] 20. Build Tree in Pre
-- [x] 21. Lexical Order
-- [x] 22. Detect Dictionary
-- [x] 23. Topological Order
-- [x] 24. Safe Cracking
-- [x] 25. String Search
-- [x] 26. Token Replace
-- [x] 27. Token Transform
+- [ ] 4. Undupe Sorted Linked List
+- [ ] 5. Create Linked List 
+- [ ] 6. Build a Queue 
+- [ ] 7. Add Lists 
 
-**9: Hashset**
+**11: Binary Tree 2**
+
+- [x] 1. Lowest Common Ancestor
+- [x] 2. Flip Tree
+- [x] 3. Lefty Nodes
+- [x] 4. Binary Search Tree Includes
+- [x] 5. Is Binary Search Tree?
+- [x] 6. Post Order Traversal
+- [x] 7. Build Tree in Post
+- [x] 8. Build Tree in Pre
+- [ ] 9. Is Tree Balanced 
+
+**12: Heap**
+
+- [ ] 1. Heap Insertion 
+- [ ] 2. Heap Deletion 
+- [ ] 3. Kth Largest 
+- [ ] 4. K Smallest 
+
+**13: Exhaustive Recursion**
+
+- [x] 1. Subsets
+- [x] 2. Permutations
+- [ ] 3. Break Time
+- [x] 4. Create Combinations
+- [ ] 5. Grocery Budget 
+- [ ] 6. Lining Up 
+- [ ] 7. Possible Paths 
+- [x] 8. Parenthetical Possibilities
+- [x] 9. Substitute Synonyms
+
+**14: Graph 2**
+
+- [x] 1. Knight Attack
+- [x] 2. Can Color
+- [x] 3. Tolerant Teams
+- [x] 4. Rare Routing
+- [x] 5. Topological Order
+- [x] 6. Safe Cracking
+- [x] 7. String Search
+- [ ] 8. Union Find 1 
+- [ ] 9. Union Find 2 
+- [ ] 10. Province Sizes 
+- [ ] 11. Extra Cable 
+- [ ] 12. Weighted Graph Min Path 
+- [ ] 13. Lowest Toll 
+
+**15: Mixed Recall**
+
+- [ ] 1. Prefix Product
+- [ ] 2. Leaf Layers
+- [x] 3. Max Increasing Subsequence
+- [x] 4. Knightly Number
+- [ ] 5. All Trips
+- [ ] 6. Has Path Sum
+- [ ] 7. Knapsack
+- [ ] 8. Virus Spread
+- [x] 9. Positioning Plants
+- [ ] 10. Flatten Tree
+- [ ] 11. Best House Build
+- [x] 12. Breaking Boundaries
+- [x] 13. Token Replace
+- [x] 14. Token Transform
+
+------------
+
+**== EXTRAS ==**
+
+**Hashset**
 
 - [x] 1. LRU Cache
 
-**10: Heap/Priority Queue**
+**Heap/Priority Queue**
 
 - [x] 1. K'th largest element in a stream
 - [x] 2. Last Stone Weight
 
-**11: Tries/Prefix Trees**
+**Tries/Prefix Trees**
 
 - [x] 1. Trie/Prefix Tree
 
-**12: Grind and Blind 75 Study Plan**
+-------------------------
+
+**Grind and Blind 75 Study Plan**
 
 **Week 1**
 
