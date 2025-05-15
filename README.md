@@ -40,7 +40,7 @@
 - [x] 8. [Merge Lists](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/MergeLists.java)
 - [x] 9. [Is univalue list](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/UnivalueList.java)
 - [x] 10. [Longest streak](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/LongestStreak.java)
-- [ ] 11. Remove Node
+- [x] 11. [Remove Node](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/LLRemoveNode.java)
 - [ ] 12. Insert Node
 
 **4: Binary Tree 1**
