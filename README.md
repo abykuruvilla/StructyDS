@@ -89,28 +89,28 @@
 
 **7: Dynamic Programming**
 
-- [x] 1. Fibonacci
-- [x] 2. Tribonacci
-- [x] 3. Sum Possible
-- [x] 4. Min Change
-- [x] 5. Count Paths
-- [x] 6. Max Path Sum
-- [x] 7. Max Non-Adjacent Sum
-- [x] 8. Min Sum of Squares
-- [x] 9. Counting Change
-- [x] 10. Array Stepper
-- [x] 11. Max Palindromic Subsequence
-- [x] 12. Overlap Subsequence
-- [x] 13. Can Concat
-- [x] 14. Quickest Concat
+- [x] 1. [Fibonacci](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/Fibonacci.java)
+- [x] 2. [Tribonacci](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/Tribonacci.java)
+- [x] 3. [Sum Possible](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/SumPossible.java)
+- [x] 4. [Min Change](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/MinChange.java)
+- [x] 5. [Count Paths](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/CountPaths.java)
+- [x] 6. [Max Path Sum](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/MaxPathSum.java)
+- [x] 7. [Max Non-Adjacent Sum](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/MaxNonAdjacentSum.java)
+- [x] 8. [Min Sum of Squares](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/MinSumOfSquares.java)
+- [x] 9. [Counting Change](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/CountingChange.java)
+- [x] 10. [Array Stepper](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/ArrayStepper.java)
+- [x] 11. [Max Palindromic Subsequence](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/MaxPalinSubsequence.java)
+- [x] 12. [Overlap Subsequence](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/LongestOverlapSubsequence.java)
+- [x] 13. [Can Concat](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/CanConcat.java)
+- [x] 14. [Quickest Concat](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/QuickestConcat.java)
 
 **8: Stack**
 
 - [ ] 1. Reverse some chars
-- [x] 2. Paired Parenthesis
-- [x] 3. Befitting Brackets
-- [x] 4. Decompress Braces
-- [x] 5. Nesting Score
+- [x] 2. [Paired Parenthesis](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/stack/PairedParenthesis.java)
+- [x] 3. [Befitting Brackets](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/stack/BefittingBrackets.java)
+- [x] 4. [Decompress Braces](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/stack/DecompressBraces.java)
+- [x] 5. [Nesting Score](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/stack/NestingScores.java)
 
 **9: Arrays And Strings**
 
