@@ -41,7 +41,7 @@
 - [x] 9. [Is univalue list](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/UnivalueList.java)
 - [x] 10. [Longest streak](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/LongestStreak.java)
 - [x] 11. [Remove Node](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/LLRemoveNode.java)
-- [ ] 12. Insert Node
+- [x] 12. [Insert Node](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/InsertLLNode.java)
 
 **4: Binary Tree 1**
 
@@ -116,17 +116,17 @@
 
 - [ ] 1. Running Sum
 - [ ] 2. Has Subarray Sum
-- [x] 3. Merge Sort
-- [x] 4. Combine Intervals
-- [x] 5. Binary Search
-- [x] 6. Lexical Order
-- [x] 7. Detect Dictionary
+- [x] 3. [Merge Sort](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/MergeSort.java)
+- [x] 4. [Combine Intervals](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/CombineIntervals.java)
+- [x] 5. [Binary Search](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/BinarySearch.java)
+- [x] 6. [Lexical Order](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/LexicalOrder.java)
+- [x] 7. [Detect Dictionary](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/DetectDictonary.java)
 
 **10: Linked Lists 2**
 
-- [x] 1. Linked Palindrome
-- [x] 2. Middle Value
-- [x] 3. Linked List Cycle
+- [x] 1. [Linked Palindrome](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/LinkedPalindrome.java)
+- [x] 2. [Middle Value](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/MiddleValue.java)
+- [x] 3. [Linked List Cycle](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/LinkedListCycle.java)
 - [ ] 4. Undupe Sorted Linked List
 - [ ] 5. Create Linked List 
 - [ ] 6. Build a Queue 
@@ -134,14 +134,14 @@
 
 **11: Binary Tree 2**
 
-- [x] 1. Lowest Common Ancestor
-- [x] 2. Flip Tree
-- [x] 3. Lefty Nodes
-- [x] 4. Binary Search Tree Includes
-- [x] 5. Is Binary Search Tree?
-- [x] 6. Post Order Traversal
-- [x] 7. Build Tree in Post
-- [x] 8. Build Tree in Pre
+- [x] 1. [Lowest Common Ancestor](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/LowestCommonAncestor.java)
+- [x] 2. [Flip Tree](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/FlipTree.java)
+- [x] 3. [Lefty Nodes](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/LeftyNodes.java)
+- [x] 4. [Binary Search Tree Includes](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/BinarySearchTreeIncludes.java)
+- [x] 5. [Is Binary Search Tree?](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/IsBinarySearchTree.java)
+- [x] 6. [Post Order Traversal](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/PostOrder.java)
+- [x] 7. [Build Tree in Post](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/BuildTreeInPost.java)
+- [x] 8. [Build Tree in Pre](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/BuildTreeInPre.java)
 - [ ] 9. Is Tree Balanced 
 
 **12: Heap**
@@ -153,25 +153,25 @@
 
 **13: Exhaustive Recursion**
 
-- [x] 1. Subsets
-- [x] 2. Permutations
+- [x] 1. [Subsets](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/Subsets.java)
+- [x] 2. [Permutations](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/Permutations.java)
 - [ ] 3. Break Time
-- [x] 4. Create Combinations
+- [x] 4. [Create Combinations](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/CreateCombinations.java)
 - [ ] 5. Grocery Budget 
 - [ ] 6. Lining Up 
 - [ ] 7. Possible Paths 
-- [x] 8. Parenthetical Possibilities
-- [x] 9. Substitute Synonyms
+- [x] 8. [Parenthetical Possibilities](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/ParentheticalPossibilities.java)
+- [x] 9. [Substitute Synonyms](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/SubstituteSynonyms.java)
 
 **14: Graph 2**
 
-- [x] 1. Knight Attack
-- [x] 2. Can Color
-- [x] 3. Tolerant Teams
-- [x] 4. Rare Routing
-- [x] 5. Topological Order
-- [x] 6. Safe Cracking
-- [x] 7. String Search
+- [x] 1. [Knight Attack](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/graph/KnightAttack.java)
+- [x] 2. [Can Color](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/CanColor.java)
+- [x] 3. [Tolerant Teams](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/TolerantTeams.java)
+- [x] 4. [Rare Routing](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/RareRouting.java)
+- [x] 5. [Topological Order](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/TopologicalOrder.java)
+- [x] 6. [Safe Cracking](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/SafeCracking.java)
+- [x] 7. [String Search](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/StringSearch.java)
 - [ ] 8. Union Find 1 
 - [ ] 9. Union Find 2 
 - [ ] 10. Province Sizes 
@@ -183,18 +183,18 @@
 
 - [ ] 1. Prefix Product
 - [ ] 2. Leaf Layers
-- [x] 3. Max Increasing Subsequence
-- [x] 4. Knightly Number
+- [x] 3. [Max Increasing Subsequence](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/MaxIncreasingSubsequence.java)
+- [x] 4. [Knightly Number](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/dynamic/KnightlyNumber.java)
 - [ ] 5. All Trips
 - [ ] 6. Has Path Sum
 - [ ] 7. Knapsack
 - [ ] 8. Virus Spread
-- [x] 9. Positioning Plants
+- [x] 9. [Positioning Plants](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/PositioningPlants.java)
 - [ ] 10. Flatten Tree
 - [ ] 11. Best House Build
-- [x] 12. Breaking Boundaries
-- [x] 13. Token Replace
-- [x] 14. Token Transform
+- [x] 12. [Breaking Boundaries](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/BreakingBoundaries.java)
+- [x] 13. [Token Replace](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/TokenReplace.java)
+- [x] 14. [Token Transform](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/TokenTransform.java)
 
 ------------
 
@@ -202,16 +202,16 @@
 
 **Hashset**
 
-- [x] 1. LRU Cache
+- [x] 1. [LRU Cache](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/hashset/LRUCache.java)
 
 **Heap/Priority Queue**
 
-- [x] 1. K'th largest element in a stream
-- [x] 2. Last Stone Weight
+- [x] 1. [Kth largest element in a stream](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/heap/KthLargest.java)
+- [x] 2. [Last Stone Weight](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/heap/LastStoneWeight.java)
 
 **Tries/Prefix Trees**
 
-- [x] 1. Trie/Prefix Tree
+- [x] 1. [Trie/Prefix Tree](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/tries/Trie.java)
 
 -------------------------
 
@@ -219,7 +219,7 @@
 
 **Week 1**
 
-- [x] 1. Two Sum - gb75 - (Easy - Array)
+- [x] 1. [Two Sum - gb75 - (Easy - Array)](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/gb75/w0/TwoSum.java)
 - [ ] 2. Best Time to Buy and Sell Stock - gb75 - (Easy - Array)
 - [ ] 3. Binary Search - g75 - (Easy - Binary Search)
 - [ ] 4. Reverse a Linked List - gb75 - (Easy - Linked List)
@@ -235,7 +235,7 @@
 
 - [ ] 12. Climbing Stairs - gb75 - (Easy - Dynamic Programming)
 - [ ] 13. House Robber - b75 - (Medium - Dynamic Programming)
-- [ ] 14. Maximum Subarray - gb75 - (Medium - Array)
+- [x] 14. [Maximum Subarray - gb75 - (Medium - Array)](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/gb75/w2/MaximumSubArray.java)
 - [ ] 15. Product of Array Except Self - gb75 - (Medium - Array)
 - [ ] 16. Set Matrix Zeroes - b75 - (Medium - Matrix)
 - [ ] 17. Spiral Matrix - b75 - (Medium - Matrix)
