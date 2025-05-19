@@ -63,7 +63,7 @@
 
 **5: Two Pointer**
 
-- [ ] 1. Is Palindrome
+- [x] 1. [Is Palindrome](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/twopointer/IsPalindrome.java)
 - [x] 2. [Uncompress](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/UncompressString.java)
 - [x] 3. [Compress](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/CompressString.java)
 - [x] 4. [Five Sort](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/FiveSort.java)
