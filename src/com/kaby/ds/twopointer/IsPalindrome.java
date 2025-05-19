@@ -12,18 +12,23 @@ public class IsPalindrome {
      */
     public static void main(String[] args) {
 
+        // == test_00: ==
         boolean result0 = isPalindrome("racecar");
         ResultPair<Boolean, Boolean> resultPair0 = new ResultPair<>("Is palindrome racecar : ", true, result0);
         resultPair0.assertMatch();
+        // == test_01: ==
         boolean result1 = isPalindrome("hello");
         ResultPair<Boolean, Boolean> resultPair1 = new ResultPair<>("Is palindrome hello : ", false, result1);
         resultPair1.assertMatch();
+        // == test_02: ==
         boolean result2 = isPalindrome("level");
         ResultPair<Boolean, Boolean> resultPair2 = new ResultPair<>("Is palindrome level : ", true, result2);
         resultPair2.assertMatch();
+        // == test_03: ==
         boolean result3 = isPalindrome("a");
         ResultPair<Boolean, Boolean> resultPair3 = new ResultPair<>("Is palindrome a : ", true, result3);
         resultPair3.assertMatch();
+        // == test_04: ==
         boolean result4 = isPalindrome("");
         ResultPair<Boolean, Boolean> resultPair4 = new ResultPair<>("Is palindrome \"\" : ", true, result4);
         resultPair4.assertMatch();
