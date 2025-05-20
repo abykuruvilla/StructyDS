@@ -67,7 +67,7 @@
 - [x] 2. [Uncompress](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/UncompressString.java)
 - [x] 3. [Compress](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/CompressString.java)
 - [x] 4. [Five Sort](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/FiveSort.java)
-- [ ] 5. Is subsequence
+- [x] 5. [Is Subsequence](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/twopointer/IsSubsequence.java)
 
 **6: Graph 1**
 
