@@ -106,7 +106,7 @@
 
 **8: Stack**
 
-- [ ] 1. Reverse some chars
+- [x] 1. [Reverse some chars](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/stack/ReverseSomeChars.java)
 - [x] 2. [Paired Parenthesis](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/stack/PairedParenthesis.java)
 - [x] 3. [Befitting Brackets](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/stack/BefittingBrackets.java)
 - [x] 4. [Decompress Braces](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/stack/DecompressBraces.java)
