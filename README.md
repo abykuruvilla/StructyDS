@@ -114,7 +114,7 @@
 
 **9: Arrays And Strings**
 
-- [x] 1. [Running Sum](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/RunningSum.java)
+- [x] 1. [Running Sum](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/arraysnstrings/RunningSum.java)
 - [ ] 2. Has Subarray Sum
 - [x] 3. [Merge Sort](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/MergeSort.java)
 - [x] 4. [Combine Intervals](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/CombineIntervals.java)
