@@ -127,7 +127,7 @@
 - [x] 1. [Linked Palindrome](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/LinkedPalindrome.java)
 - [x] 2. [Middle Value](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/MiddleValue.java)
 - [x] 3. [Linked List Cycle](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/LinkedListCycle.java)
-- [ ] 4. Undupe Sorted Linked List
+- [x] 4. [Undupe Sorted Linked List](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/UndupeSortedLinkedList.java)
 - [ ] 5. Create Linked List 
 - [ ] 6. Build a Queue 
 - [ ] 7. Add Lists 
