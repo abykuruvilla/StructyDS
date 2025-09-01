@@ -155,13 +155,12 @@
 
 - [x] 1. [Subsets](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/Subsets.java)
 - [x] 2. [Permutations](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/Permutations.java)
-- [ ] 3. Break Time
-- [x] 4. [Create Combinations](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/CreateCombinations.java)
-- [ ] 5. Grocery Budget 
-- [ ] 6. Lining Up 
-- [ ] 7. Possible Paths 
-- [x] 8. [Parenthetical Possibilities](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/ParentheticalPossibilities.java)
-- [x] 9. [Substitute Synonyms](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/SubstituteSynonyms.java)
+- [x] 3. [Create Combinations](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/CreateCombinations.java)
+- [ ] 4. Grocery Budget 
+- [ ] 5. Lining Up 
+- [ ] 6. Possible Paths 
+- [x] 7. [Parenthetical Possibilities](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/ParentheticalPossibilities.java)
+- [x] 8. [Substitute Synonyms](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/recursion/SubstituteSynonyms.java)
 
 **14: Graph 2**
 
