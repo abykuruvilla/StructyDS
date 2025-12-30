@@ -129,7 +129,7 @@
 - [x] 3. [Linked List Cycle](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/mixed/LinkedListCycle.java)
 - [x] 4. [Undupe Sorted Linked List](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/UndupeSortedLinkedList.java)
 - [x] 5. [Create Linked List](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/CreateLinkedList.java) 
-- [ ] 6. Build a Queue 
+- [x] 6. [Build a Queue](https://github.com/abykuruvilla/StructyDS/blob/master/src/com/kaby/ds/linkedlist/Queue.java) 
 - [ ] 7. Add Lists 
 
 **11: Binary Tree 2**
