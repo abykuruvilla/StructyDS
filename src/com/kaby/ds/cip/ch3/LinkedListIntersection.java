@@ -35,6 +35,13 @@ public class LinkedListIntersection {
 
     }
 
+    /**
+     * Time Complexity O(n + m) - since we are traversing two lists
+     * Space Complexity O(1)
+     * @param head1
+     * @param head2
+     * @return
+     */
     private static Node<Integer> linkedListIntersection(Node<Integer> head1, Node<Integer> head2) {
 
         Node<Integer> ptr1 = head1;

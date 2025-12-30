@@ -1,4 +1,4 @@
-CIP Java solutions:
+Coding Interview Patterns Java solutions:
 
 **Chapter 1: Two Pointers**
 
