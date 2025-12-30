@@ -17,7 +17,7 @@ CIP Java solutions:
 
 - [ ] Linked List Reversal
 - [ ] Remove Kth Last Node From Linked List
-- [ ] Linked List Intersection
+- [x] Linked List Intersection
 - [ ] LRU Cache
 
 **Chapter 4: Fast and Slow Pointers**
