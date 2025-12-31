@@ -18,7 +18,8 @@ Coding Interview Patterns Java solutions:
 - [ ] Linked List Reversal
 - [ ] Remove Kth Last Node From Linked List
 - [x] Linked List Intersection
-- [ ] LRU Cache
+- [x] LRU Cache
+- [x] LRU Cache using LinkedHashMap
 
 **Chapter 4: Fast and Slow Pointers**
 
