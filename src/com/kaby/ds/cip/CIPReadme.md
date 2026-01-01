@@ -40,6 +40,19 @@ Coding Interview Patterns Java solutions:
 - [ ] Cutting Wood
 - [ ] Find the Target in a Rotated Sorted Array
 
+**Chapter 7: Stack**
+
+- [ ] Valid Parenthesis Expression
+- [ ] Next Largest Number to the Right
+- [ ] Evaluate Expression
+
+**Chapter 8: Heaps**
+
+- [ ] K Most Frequent Strings
+- [ ] Combine Sorted Linked Lists
+- [ ] Median of an Integer Stream
+
+
 
 
 
