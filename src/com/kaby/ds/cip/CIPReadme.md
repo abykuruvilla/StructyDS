@@ -24,7 +24,7 @@ Coding Interview Patterns Java solutions:
 **Chapter 4: Fast and Slow Pointers**
 
 - [x] Linked List Loop
-- [ ] Linked List Midpoint
+- [x] Linked List Midpoint
 - [ ] Happy Number
 
 **Chapter 5: Sliding Windows**
