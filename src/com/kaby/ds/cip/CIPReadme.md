@@ -19,11 +19,11 @@ Coding Interview Patterns Java solutions:
 - [ ] Remove Kth Last Node From Linked List
 - [x] Linked List Intersection
 - [x] LRU Cache
-- [x] LRU Cache using LinkedHashMap
+- [x] LRU Cache using LinkedHashMap (*Extra Variation*)
 
 **Chapter 4: Fast and Slow Pointers**
 
-- [ ] Linked List Loop
+- [x] Linked List Loop
 - [ ] Linked List Midpoint
 - [ ] Happy Number
 
