@@ -25,7 +25,7 @@ Coding Interview Patterns Java solutions:
 
 - [x] Linked List Loop
 - [x] Linked List Midpoint
-- [ ] Happy Number
+- [x] Happy Number
 
 **Chapter 5: Sliding Windows**
 
