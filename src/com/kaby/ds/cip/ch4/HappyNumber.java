@@ -23,7 +23,7 @@ public class HappyNumber {
      */
     public static boolean happyNumber(int n) {
         // This uses a similar strategy like LinkedListLoop detection
-        // We will us e fast and slow pointers
+        // We will use fast and slow pointers
 
         int slow = n;
         int fast = n;
